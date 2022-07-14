@@ -4,12 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>quickcash</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
         <!-- Styles -->
-        
+        <script src="{{ asset('js/app.js') }}" defer></script>
+
+
     </head>
     <body class="antialiased">
-        <div id="example"></div>
-        <script src="{{ asset('js/app.js') }}"></script>
+      
+        <div id="mainApp"> </div> {{-- Root DOM --}}
+  
+        <h1> This is the main page </h1> {{-- React JS --}}
     </body>
 </html>
