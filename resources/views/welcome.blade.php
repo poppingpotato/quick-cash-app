@@ -16,8 +16,9 @@
     </head>
     <body class="antialiased">
       
-        <div id="mainApp"> </div> {{-- Root DOM --}}
+        <div id="mainApp"> 
+            </div>  {{-- Root DOM --}}
   
-        <h1> This is the main page </h1> {{-- React JS --}}
+        {{-- <h1> This is the main page </h1> React JS --}}
     </body>
 </html>
