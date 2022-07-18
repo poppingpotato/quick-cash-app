@@ -1,26 +1,23 @@
 import * as React from 'react';
+import { Fragment } from 'react';
+import { NavLink } from 'react-router-dom';
+
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardHeader from '@mui/material/CardHeader';
 import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import StarIcon from '@mui/icons-material/StarBorder';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import GlobalStyles from '@mui/material/GlobalStyles';
-import Container from '@mui/material/Container';
 
-
-import { NavLink } from 'react-router-dom';
+const logout = () => {
+    axios.post('/logout')
+    .then(() => location.href = '/login')
+};
 
 function Navbar() {
     return (
-        <React.Fragment>
+        <Fragment>
             <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
             <CssBaseline />
             <AppBar
@@ -56,10 +53,10 @@ function Navbar() {
                             variant="button"
                             color="text.primary"
                             component={NavLink}
-                            to="/employees"
+                            to="/users"
                             sx={{ my: 1, mx: 1.5 }}
                         >
-                            Employees
+                            Users
                         </Link>
                         <Link
                             variant="button"
@@ -80,15 +77,14 @@ function Navbar() {
                             Profile
                         </Link>
                     </nav>
-                    <Button href="#" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
-                        Login
+                    
+                    <Button href="#" onClick={logout} variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+                        Logout
                     </Button>
                     
                 </Toolbar>
             </AppBar>
-
-
-        </React.Fragment>
+        </Fragment>
     )
 }
 

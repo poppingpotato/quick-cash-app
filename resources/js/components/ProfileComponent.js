@@ -4,17 +4,14 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Autocomplete from '@mui/material/Autocomplete';
 
-function Profile() {
+function Profile(){
     const theme = createTheme();
 
     const handleSubmit = (event) => {
@@ -26,14 +23,19 @@ function Profile() {
         });
     };
     const top100Films = [
-        { label: 'The Shawshank Redemption', year: 1994 },
-        { label: 'The Godfather', year: 1972 },
-        { label: 'The Godfather: Part II', year: 1974 },
-        { label: 'The Dark Knight', year: 2008 },
-        { label: '12 Angry Men', year: 1957 },
-        { label: "Schindler's List", year: 1993 },
-        { label: 'Pulp Fiction', year: 1994 }
-    ]
+        { label: 'The Shawshank Redemption'},
+        { label: 'The Godfather'},
+        { label: 'The Godfather: Part II' },
+        { label: 'The Dark Knight'},
+        { label: '12 Angry Men' },
+        { label: "Schindler's List"},
+        { label: 'Pulp Fiction' }
+    ];
+
+
+
+    // Fetching
+    
     return (
         <React.Fragment>
             <ThemeProvider theme={theme}>
@@ -103,17 +105,6 @@ function Profile() {
                                         id="companyId"
                                         label="Company ID"
                                         name="companyId"
-                                    />
-                                </Grid>
-
-                                <Grid item xs={12}>
-                                    <TextField
-                                        required
-                                        fullWidth
-                                        name="contact"
-                                        label="Contact"
-                                        type="phone"
-                                        id="contact"
                                     />
                                 </Grid>
                             </Grid>
