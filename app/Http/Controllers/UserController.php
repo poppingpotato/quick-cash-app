@@ -2,11 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Companies;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -35,7 +42,31 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $firstName = $request->get('firstName');
+        $lastName = $request->get('lastName');
+        $email = $request->get('email');
+        $company = $request->get('company');
+        $companyId = $request->get('companyId');
+        $role = $request->get('role');
+
+        User::create([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'role' => $role,
+            'password' => Hash::make('1'),
+        ]);
+        return response()->json([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'role' => $role,
+            'password' => Hash::make('1'),
+        ]);
     }
 
     /**
@@ -46,7 +77,9 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        // $userDetails = User::findorFail($id);
+
+        // return response()->json($userDetails);
     }
 
     /**
@@ -57,7 +90,8 @@ class UserController extends Controller
      */
     public function edit($id)
     {
-        //
+        $userDetails = User::findOrFail($id);
+        return response()->json([$userDetails]);
     }
 
     /**
@@ -69,7 +103,32 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $id = $request->get('id');
+        $firstName = $request->get('firstName');
+        $lastName = $request->get('lastName');
+        $email = $request->get('email');
+        $company = $request->get('company');
+        $companyId = $request->get('companyId');
+        $role = $request->get('role');
+
+        User::where('id', $id)->update([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'role' => $role
+        ]);
+
+
+        return response()->json([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'role' => $role
+        ]);
     }
 
     /**
@@ -83,9 +142,32 @@ class UserController extends Controller
         //
     }
 
-    public function getUsers(){
-        $users = User::all();
-        // return $users;
-        return response()->json(['users'=>$users]);
-    } 
+    public function getUsers()
+    {
+        if(Auth::user()->role === "Administrator") {
+            $userRole = Auth::user()->role;
+            $users = User::where('role', '!=', 'Administrator')
+            ->get();
+            return response()->json(['users' => $users]);
+        } else {
+            $users = User::all();
+            // return $users;
+            return response()->json(['users' => $users]);
+        }
+        
+    }
+
+    public function getLoggedInUser()
+    {
+        $user = Auth::user();
+        return response()->json(['user' => $user]);
+    }
+    
+    public function getCompany()
+    {
+        $getcompany = Companies::all();
+        return response()->json(['company' => $getcompany]);
+    }
+
+
 }

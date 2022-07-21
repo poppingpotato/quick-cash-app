@@ -15,6 +15,14 @@ return new class extends Migration
     {
         Schema::create('loans', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id')->unique;
+            $table->string('firstName');
+            $table->string('lastName');
+            $table->string('email');
+            $table->string('company');
+            $table->string('companyId');
+            $table->string('loanAmnt');
+            $table->string('status');
             $table->timestamps();
         });
     }

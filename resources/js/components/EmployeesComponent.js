@@ -1,47 +1,25 @@
 import React, { useEffect, useState } from 'react';
+import { Typography, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button, Autocomplete, Modal, Box, Grid, TextField, Select, FormControl, MenuItem, InputLabel } from '@mui/material';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
-import TextField from '@mui/material/TextField';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
-
-import Modal from '@mui/material/Modal';
-
-
 import axios from 'axios';
 
 
-function Profile() {
 
-    // const handleSubmit = (event) => {
-    //     event.preventDefault();
-    //     const data = new FormData(event.currentTarget);
-    //     console.log({
-    //         email: data.get('email'),
-    //         password: data.get('password'),
-    //     });
-    // };
-
-    // const top100Films = [
-    //     { label: 'The Shawshank Redemption' },
-    //     { label: 'The Godfather' },
-    //     { label: 'The Godfather: Part II' },
-    //     { label: 'The Dark Knight' },
-    //     { label: '12 Angry Men' },
-    //     { label: "Schindler's List" },
-    //     { label: 'Pulp Fiction' }
-    // ];
-
-
-
-    // openmodal
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
+function Employees() {
     const handleClose = () => setOpen(false);
+    const handleClose2 = () => setOpen2(false);
+    const [open, setOpen] = useState(false);
+    const [open2, setOpen2] = useState(false);
+
+    
+
+    const [userId, setUserId] = useState('');
+    const [firstName, setfirstName] = useState('');
+    const [lastName, setlastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [company, setCompany] = useState('');
+    const [companyId, setCompanyId] = useState('');
+    const [roleUser, setRole] = useState('');
 
     const style = {
         position: 'absolute',
@@ -55,31 +33,7 @@ function Profile() {
         p: 4,
     };
 
-
-    const [userId, setUserId] = useState('')
-    const [firstName, setfirstName] = useState('');
-    const [lastName, setlastName] = useState('');
-    const [email, setEmail] = useState('');
-    const [company, setCompany] = useState('');
-    const [companyId, setCompanyId] = useState('');
-    const [role, setRole] = useState('');
-
-    //retrieving user details
-    const getLoggedInUser = () => {
-        axios.get('/getLoggedInUser')
-            .then((response) => {
-                console.log(response.data.user);
-                const userData = response.data.user;
-                setUserId(userData.id);
-                setfirstName(userData.firstName);
-                setlastName(userData.lastName);
-                setEmail(userData.email);
-                setCompany(userData.company);
-                setCompanyId(userData.companyId);
-                setRole(userData.role);
-            });
-    };
-    useEffect(() => getLoggedInUser(), []);
+    const userRole = ['Owner', 'Administrator', 'Payroll Officer', 'Employee']
 
     //retrieving company
     const [companyOptions, setCompanyOptions] = useState([]);
@@ -92,13 +46,80 @@ function Profile() {
             });
     };
     useEffect(() => getCompany(), []);
+    //retrieving users
+    const [employee, setEmployee] = useState([]);
+    const getEmployees = () => {
+        axios.get('/getEmployees')
+            .then((response) => {
+                console.log(response);
+                const allEmployees = response.data.employee;
+                setEmployee(allEmployees);
+            });
+    };
+    useEffect(() => getEmployees(), []);
 
+    //create user
+    const handleCreate = () => {
+        setOpen2(true)
+    };
 
-    //updating details
+    const handleSubmit2 = (event) => {
+        event.preventDefault();
+        const user = new FormData(event.currentTarget);
+        const url = `http://localhost:8000/users`
+
+        const userDetails = {
+            firstName: user.get('firstName'),
+            lastName: user.get('lastName'),
+            email: user.get('email'),
+            company: company,
+            companyId: user.get('companyId'),
+            role: roleUser,
+
+        }
+
+        axios.post(url, userDetails)
+            .then((response) => {
+                console.log('Success', response);
+                setOpen2(false);
+            });
+
+        console.log({
+            firstName: user.get('firstName'),
+            lastName: user.get('lastName'),
+            email: user.get('email'),
+            company: company,
+            companyId: user.get('companyId'),
+            role: roleUser,
+        });
+    };
+
+    //handling modal open and getting details for modal edit
+    const handleEdit = (event) => {
+        setOpen(true)
+        const userID = event.currentTarget.id;
+        console.log(event.currentTarget.id);
+        const url = `http://localhost:8000/users/${userID}/edit`
+
+        axios.get(url)
+            .then((response) => {
+                const userInfo = response.data[0];
+                // console.log(userInfo.role);
+                setUserId(userInfo.id);
+                setfirstName(userInfo.firstName);
+                setlastName(userInfo.lastName);
+                setEmail(userInfo.email);
+                setCompany(userInfo.company);
+                setCompanyId(userInfo.companyId);
+                setRole(userInfo.role);
+            })
+    };
+
+    //update details
     const handleSubmit = (event) => {
         event.preventDefault();
         const user = new FormData(event.currentTarget);
-        const url = `http://localhost:8000/profile/${user.get('id')}`
+        const url = `http://localhost:8000/users/${user.get('id')}`
 
         const userDetails = {
             id: user.get('id'),
@@ -107,6 +128,7 @@ function Profile() {
             email: user.get('email'),
             company: company,
             companyId: user.get('companyId'),
+            role: roleUser,
         }
 
         axios.put(url, userDetails)
@@ -117,33 +139,91 @@ function Profile() {
 
         console.log({
             id: user.get('id'),
-            email: user.get('email'),
             firstName: user.get('firstName'),
-            companyId: company,
-
+            lastName: user.get('lastName'),
+            email: user.get('email'),
+            company: company,
+            companyId: user.get('companyId'),
+            role: roleUser,
         });
     };
 
-    return (
-        <Container component="main" maxWidth="xs">
-            <CssBaseline />
-            <Box
-                sx={{
-                    marginTop: 8,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                }}
-            >
 
-                <Avatar sx={{ width: 100, height: 100 }} src='#' ></Avatar>
-                <Typography component="h1" variant="h5">
-                    Profile
-                </Typography>
-                {/* <Link href="#" underline="none">
-                    {'Change Profile'}
-                </Link> */}
-                <Box sx={{ mt: 3 }}>
+    return (
+        <Container maxWidth="lg" sx={{ mt: 4 }}>
+            <Typography
+                component="h1"
+                variant="h6"
+                color="inherit"
+                noWrap
+                sx={{ flexGrow: 1, mb: 1 }}
+            >
+                Employees
+            </Typography>
+            <Button sx={{ mb: 1 }} variant="contained" onClick={handleCreate}>Create Employee</Button>
+            <TableContainer component={Paper}>
+                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Employee</TableCell>
+                            <TableCell align="right">Email</TableCell>
+                            <TableCell align="right">Company</TableCell>
+                            <TableCell align="right">company Id</TableCell>
+                            <TableCell align="right">Role</TableCell>
+                            <TableCell align="center">Actions</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {employee?.map((data) => (
+                            <TableRow
+                                key={data.id}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+
+                                <TableCell component="th" scope="row">
+                                    {data.firstName} {data.lastName}
+                                </TableCell>
+                                <TableCell align="right">{data.email}</TableCell>
+                                <TableCell align="right">{data.company}</TableCell>
+                                <TableCell align="right">{data.companyId}</TableCell>
+                                <TableCell align="right">{data.role}</TableCell>
+                                <TableCell align="center">
+
+                                    <Button variant="contained" onClick={handleEdit} id={data.id}> Edit</Button>
+
+                                </TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+            {/* create modal */}
+            <Modal
+                open={open2}
+                onClose={handleClose2}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box component="form" noValidate autoComplete="off" onSubmit={handleSubmit2} sx={style}>
+                    <Typography id="modal-modal-title" variant="h6" component="h2" sx={{ mb: 1 }}>
+                        Create Employee
+                    </Typography>
+                    <Grid item xs={12} sm={6} sx={{ display: { xs: 'none', md: 'none' } }}>
+                        <TextField
+                            name="id"
+                            id="id"
+                            label="id"
+                            autoFocus
+                            value={userId}
+
+
+                            required
+                            fullWidth
+                            InputLabelProps={{
+                                shrink: true,
+                            }}
+                        />
+                    </Grid>
                     <Grid container spacing={2}>
                         <Grid item xs={12} sm={6}>
                             <TextField
@@ -153,13 +233,13 @@ function Profile() {
                                 value={firstName}
                                 onChange={e => setfirstName(e.target.value)}
 
+
+                                autoFocus
+                                required
                                 fullWidth
                                 InputLabelProps={{
                                     shrink: true,
                                 }}
-                                inputProps={
-                                    { readOnly: true }
-                                }
                             />
                         </Grid>
                         <Grid item xs={12} sm={6}>
@@ -170,34 +250,49 @@ function Profile() {
                                 value={lastName}
                                 onChange={e => setlastName(e.target.value)}
 
+                                autoFocus
+                                required
                                 fullWidth
                                 InputLabelProps={{
                                     shrink: true,
                                 }}
-                                inputProps={
-                                    { readOnly: true }
-                                }
                             />
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
+                                type="email"
                                 name="email"
                                 id="email"
                                 label="Email Address"
-                                autoComplete="email"
                                 value={email}
                                 onChange={e => setEmail(e.target.value)}
 
+                                autoFocus
+                                required
                                 fullWidth
                                 InputLabelProps={{
                                     shrink: true,
                                 }}
-                                inputProps={
-                                    { readOnly: true }
-                                }
                             />
                         </Grid>
                         <Grid item xs={12}>
+                            <FormControl
+                                fullWidth
+                            >
+                                <InputLabel>Company</InputLabel>
+                                <Select
+                                    value={company}
+                                    onChange={e => setCompany(e.target.value)}
+                                >
+                                    {companyOptions?.map(({ id, company }) => (
+                                        <MenuItem key={id} id="company" value={company}>
+                                            {company}
+                                        </MenuItem>
+                                    ))}
+                                </Select>
+                            </FormControl>
+                        </Grid>
+                        {/* <Grid item xs={12}>
                             <TextField
                                 name="company"
                                 id="company"
@@ -205,15 +300,14 @@ function Profile() {
                                 value={company}
                                 onChange={e => setCompany(e.target.value)}
 
+                                autoFocus
+                                required
                                 fullWidth
                                 InputLabelProps={{
                                     shrink: true,
                                 }}
-                                inputProps={
-                                    { readOnly: true }
-                                }
                             />
-                        </Grid>
+                        </Grid> */}
                         <Grid item xs={12}>
                             <TextField
                                 name="companyId"
@@ -222,25 +316,43 @@ function Profile() {
                                 value={companyId}
                                 onChange={e => setCompanyId(e.target.value)}
 
-
+                                autoFocus
+                                required
                                 fullWidth
                                 InputLabelProps={{
                                     shrink: true,
                                 }}
-                                inputProps={
-                                    { readOnly: true }
-                                }
                             />
                         </Grid>
+                        <Grid item xs={12}>
+                            <Autocomplete
+                                disablePortal
+                                name="role"
+                                id="role"
+                                options={userRole}
+                                onChange={(event, value) => setRole(value)}
+
+                                renderInput={(params) => (
+                                    <TextField {...params} label="Role" />
+                                )}
+
+                            />
+
+
+                        </Grid>
                     </Grid>
-                    <Button fullWidth
+                    <Button
+                        type="submit"
+                        fullWidth
                         variant="contained"
                         sx={{ mt: 3, mb: 2 }}
-                        onClick={handleOpen}>Edit</Button>
+                    >
+                        Create
+                    </Button>
                 </Box>
-            </Box>
+            </Modal>
 
-            {/* edit/update */}
+            {/* edit modal */}
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -248,10 +360,9 @@ function Profile() {
                 aria-describedby="modal-modal-description"
             >
                 <Box component="form" noValidate autoComplete="off" onSubmit={handleSubmit} sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Text in a modal
+                    <Typography id="modal-modal-title" variant="h6" component="h2" sx={{ mb: 1 }}>
+                        Update User
                     </Typography>
-
                     <Grid item xs={12} sm={6} sx={{ display: { xs: 'none', md: 'none' } }}>
                         <TextField
                             name="id"
@@ -371,6 +482,21 @@ function Profile() {
                                 }}
                             />
                         </Grid>
+                        <Grid item xs={12}>
+                            <Autocomplete
+                                disablePortal
+                                name="role"
+                                id="role"
+                                options={userRole}
+                                onChange={(event, value) => setRole(value)}
+                                renderInput={(params) => (
+
+                                    <TextField  {...params} label="Role" />
+                                )}
+                                value={roleUser}
+                            />
+                        </Grid>
+
                     </Grid>
                     <Button
                         type="submit"
@@ -382,26 +508,8 @@ function Profile() {
                     </Button>
                 </Box>
             </Modal>
-
         </Container>
     )
-    // return (
-    //     <div>
-    //         <Paper>
-    //             <List key={data.id}>
-    //                 <ListItem>
-    //                     <ListItemAvatar>
-    //                         <Avatar src={data.profImg} />
-    //                     </ListItemAvatar>
-    //                     <ListItemText primary={data.firstName} secondary={data.lastName} />
-    //                 </ListItem>
-    //             </List>
-
-    //         </Paper>
-    //     </div>
-    // )
-
-
 }
+export default Employees;
 
-export default Profile;

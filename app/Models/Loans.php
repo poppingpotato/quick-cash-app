@@ -8,4 +8,19 @@ use Illuminate\Database\Eloquent\Model;
 class Loans extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'firstName',
+        'lastName',
+        'email',
+        'company',
+        'companyId',
+        'loanAmnt',
+        'status',
+    ];
+    public function user() 
+    {
+        return $this->belongsTo(User::class);
+    }
 }

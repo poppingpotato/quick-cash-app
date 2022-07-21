@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class ProfileController extends Controller
@@ -10,7 +11,7 @@ class ProfileController extends Controller
     {
         $this->middleware('auth');
     }
-    
+
     /**
      * Display a listing of the resource.
      *
@@ -18,8 +19,8 @@ class ProfileController extends Controller
      */
     public function index()
     {
-   
-        return view ('welcome');
+
+        return view('welcome');
     }
 
     /**
@@ -62,7 +63,6 @@ class ProfileController extends Controller
      */
     public function edit($id)
     {
-        //
     }
 
     /**
@@ -74,7 +74,29 @@ class ProfileController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+        $id = $request->get('id');
+        $firstName = $request->get('firstName');
+        $lastName = $request->get('lastName');
+        $email = $request->get('email');
+        $company = $request->get('company');
+        $companyId = $request->get('companyId');
+
+        User::where('id', $id)->update([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId
+        ]);
+
+        return response()->json([
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId
+        ]);
     }
 
     /**

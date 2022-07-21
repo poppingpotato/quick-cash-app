@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Companies;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class CompaniesController extends Controller
+use function PHPUnit\Framework\at;
+
+class EmployeesController extends Controller
 {
     public function __construct()
     {
@@ -39,24 +42,16 @@ class CompaniesController extends Controller
      */
     public function store(Request $request)
     {
-        $company = $request->get('company');
-
-        Companies::create([
-            'company' => $company,
-        ]);
-
-        return response()->json([
-            'company' => $company,
-        ]);
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Companies  $companies
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Companies $companies)
+    public function show($id)
     {
         //
     }
@@ -64,50 +59,51 @@ class CompaniesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Companies  $companies
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $companyDetails = Companies::findOrFail($id);
-        return response()->json([$companyDetails]);
+        //
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Companies  $companies
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        $id = $request->get('id');
-        $company = $request->get('company');
-
-        Companies::where('id', $id)->update([
-            'company' => $company,
-        ]);
-
-        return response()->json([
-            'company' => $company,
-        ]);
+        //
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Companies  $companies
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Companies $companies)
+    public function destroy($id)
     {
         //
     }
 
-    public function getAllCompanies() 
+    public function getEmployees()
     {
-        $companies = Companies::all();
-        return response()->json(['companies' => $companies]);
+        if(Auth::user()->role === "Administrator" || Auth::user()->role === "Owner" ){
+            $getEmployee = User::where('role','Employee')->get();
+            return response()->json(['employee' => $getEmployee]);
+        }else if (Auth::user()->role === "Payroll Officer") {
+            $userRole = Auth::user()->company;
+            $getEmployee = User::where('company', $userRole) 
+            ->where('role', 'Employee')
+            ->get();
+            return response()->json(['employee' => $getEmployee]);
+        } else {   
+            return response()->json('No user');
+        }
+        
     }
 }
