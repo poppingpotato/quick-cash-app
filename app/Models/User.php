@@ -53,4 +53,8 @@ class User extends Authenticatable
     public function loans() {
         return $this->hasMany(Loans::class);
     }
+    
+    public function capital() {
+        return $this->hasOne(Capital::class);
+    }
 }

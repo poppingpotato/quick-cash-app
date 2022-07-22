@@ -21,8 +21,12 @@ return new class extends Migration
             $table->string('email');
             $table->string('company');
             $table->string('companyId');
-            $table->string('loanAmnt');
+            $table->integer('loanAmnt');
+            $table->string('bankName')->nullable();
+            $table->string('accountName')->nullable();
+            $table->string('accountNmbr')->nullable();
             $table->string('status');
+
             $table->timestamps();
         });
     }

@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Capital;
+use App\Models\Capitals;
 use App\Models\Loans;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -90,9 +93,10 @@ class LoansController extends Controller
      * @param  \App\Models\Loans  $loans
      * @return \Illuminate\Http\Response
      */
-    public function edit(Loans $loans)
+    public function edit($id)
     {
-        //
+        $userDetails = Loans::findOrFail($id);
+        return response()->json([$userDetails]);
     }
 
     /**
@@ -102,9 +106,48 @@ class LoansController extends Controller
      * @param  \App\Models\Loans  $loans
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Loans $loans)
+    public function update(Request $request, $id)
     {
-        //
+        $id = $request->get('id');
+        $user_id = $request->get('user_id');
+        $firstName = $request->get('firstName');
+        $lastName = $request->get('lastName');
+        $email = $request->get('email');
+        $company = $request->get('company');
+        $companyId = $request->get('companyId');
+        $loanAmnt = $request->get('loanAmnt');
+        $bankName = $request->get('bankName');
+        $accountName = $request->get('accountName');
+        $accountNmber = $request->get('accountNmber');
+        $status = $request->get('status');
+
+        Loans::where('id', $id)->update([
+            'user_id' => $user_id,
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'loanAmnt' => $loanAmnt,
+            'bankName' => $bankName,
+            'accountName' => $accountName,
+            'accountNmbr' => $accountNmber,
+            'status' => $status,
+        ]);
+
+        return response()->json([
+            'user_id' => $user_id,
+            'firstName' => $firstName,
+            'lastName' => $lastName,
+            'email' => $email,
+            'company' => $company,
+            'companyId' => $companyId,
+            'loanAmnt' => $loanAmnt,
+            'bankName' => $bankName,
+            'accountName' => $accountName,
+            'accountNmbr' => $accountNmber,
+            'status' => $status,
+        ]);
     }
 
     /**
@@ -132,5 +175,73 @@ class LoansController extends Controller
             $getLoans = Loans::where('user_id', $myUser)->get();
             return response()->json(['loans' => $getLoans]);
         }
+    }
+    /**
+     * The formula for calculating your monthly payment is:
+     * a ÷ {[(1 + r)^n]-1} ÷ [r(1+r)^n]
+     *
+     *a: Loan amount (₱100,000)
+     *r: Annual interest rate divided by 12 monthly payments per year (0.10 ÷ 12 = 0.0083)
+     *n: Total number of monthly payments (24)
+     *Monthly loan amortization = 100,000 ÷ {[(1 + 0.0083)^24]-1} ÷ [0.0083(1+0.0083)^24]
+    
+     */
+    public function approveLoan(Request $request, $id)
+    {
+        $id = $request->get('id');
+        $loanAmnt = $request->get('loanAmnt');
+        $status = "Approved";
+        $monthStart = Carbon::now()->startOfMonth();
+        $amort = $loanAmnt * ((0.05 * (1.05) ^ 3) / (1.05) ^ 3 - 1);
+        // Loans::where('id', $id)->update([
+        //     'status' => $status,
+        // ]);
+
+
+
+        // return response()->json([
+        //     'id' => $id,
+        //     'loanAmnt' => $loanAmnt,
+        //     'status' => $status,
+        // ]);
+        return response()->json($monthStart);
+    }
+
+
+    public function cancelLoan(Request $request, $id)
+    {
+        $id = $request->get('id');
+        $status = "Cancelled";
+
+        Loans::where('id', $id)->update([
+            'status' => $status,
+        ]);
+
+        return response()->json([
+            'id' => $id,
+            'status' => $status,
+        ]);
+    }
+
+    public function getCapital()
+    {
+        $capital = Capitals::all();
+        return response()->json(['capital' => $capital]);
+    }
+
+    public function editCapital(Request $request, $id)
+    {
+        $id = $request->get('id');
+        $capital = $request->get('capital');
+
+        Capitals::where('id', $id)->update([
+            'id' => $id,
+            'capital' => $capital,
+        ]);
+
+        return response()->json([
+            'id' => $id,
+            'capital' => $capital,
+        ]);
     }
 }
