@@ -9494,6 +9494,29 @@ function CssBaseline(inProps) {
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/Divider/dividerClasses.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@mui/material/Divider/dividerClasses.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getDividerUtilityClass": () => (/* binding */ getDividerUtilityClass)
+/* harmony export */ });
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js");
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js");
+
+function getDividerUtilityClass(slot) {
+  return (0,_mui_base__WEBPACK_IMPORTED_MODULE_0__["default"])('MuiDivider', slot);
+}
+const dividerClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiDivider', ['root', 'absolute', 'fullWidth', 'inset', 'middle', 'flexItem', 'light', 'vertical', 'withChildren', 'withChildrenVertical', 'textAlignRight', 'textAlignLeft', 'wrapper', 'wrapperVertical']);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (dividerClasses);
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/Fade/Fade.js":
 /*!*************************************************!*\
   !*** ./node_modules/@mui/material/Fade/Fade.js ***!
@@ -14306,6 +14329,52 @@ const linkClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiLi
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/ListItemIcon/listItemIconClasses.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@mui/material/ListItemIcon/listItemIconClasses.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getListItemIconUtilityClass": () => (/* binding */ getListItemIconUtilityClass)
+/* harmony export */ });
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js");
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js");
+
+function getListItemIconUtilityClass(slot) {
+  return (0,_mui_base__WEBPACK_IMPORTED_MODULE_0__["default"])('MuiListItemIcon', slot);
+}
+const listItemIconClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiListItemIcon', ['root', 'alignItemsFlexStart']);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (listItemIconClasses);
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/ListItemText/listItemTextClasses.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@mui/material/ListItemText/listItemTextClasses.js ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getListItemTextUtilityClass": () => (/* binding */ getListItemTextUtilityClass)
+/* harmony export */ });
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js");
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js");
+
+function getListItemTextUtilityClass(slot) {
+  return (0,_mui_base__WEBPACK_IMPORTED_MODULE_0__["default"])('MuiListItemText', slot);
+}
+const listItemTextClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiListItemText', ['root', 'multiline', 'dense', 'inset', 'primary', 'secondary']);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (listItemTextClasses);
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/ListSubheader/ListSubheader.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@mui/material/ListSubheader/ListSubheader.js ***!
@@ -14723,6 +14792,337 @@ function getListUtilityClass(slot) {
 }
 const listClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiList', ['root', 'padding', 'dense', 'subheader']);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (listClasses);
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/MenuItem/MenuItem.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@mui/material/MenuItem/MenuItem.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "overridesResolver": () => (/* binding */ overridesResolver)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/composeClasses/composeClasses.js");
+/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/system */ "./node_modules/@mui/system/esm/colorManipulator.js");
+/* harmony import */ var _styles_styled__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/styled */ "./node_modules/@mui/material/styles/styled.js");
+/* harmony import */ var _styles_useThemeProps__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/useThemeProps */ "./node_modules/@mui/material/styles/useThemeProps.js");
+/* harmony import */ var _List_ListContext__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../List/ListContext */ "./node_modules/@mui/material/List/ListContext.js");
+/* harmony import */ var _ButtonBase__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../ButtonBase */ "./node_modules/@mui/material/ButtonBase/ButtonBase.js");
+/* harmony import */ var _utils_useEnhancedEffect__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/useEnhancedEffect */ "./node_modules/@mui/material/utils/useEnhancedEffect.js");
+/* harmony import */ var _utils_useForkRef__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../utils/useForkRef */ "./node_modules/@mui/material/utils/useForkRef.js");
+/* harmony import */ var _Divider__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Divider */ "./node_modules/@mui/material/Divider/dividerClasses.js");
+/* harmony import */ var _ListItemIcon__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../ListItemIcon */ "./node_modules/@mui/material/ListItemIcon/listItemIconClasses.js");
+/* harmony import */ var _ListItemText__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../ListItemText */ "./node_modules/@mui/material/ListItemText/listItemTextClasses.js");
+/* harmony import */ var _menuItemClasses__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menuItemClasses */ "./node_modules/@mui/material/MenuItem/menuItemClasses.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+const _excluded = ["autoFocus", "component", "dense", "divider", "disableGutters", "focusVisibleClassName", "role", "tabIndex"];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const overridesResolver = (props, styles) => {
+  const {
+    ownerState
+  } = props;
+  return [styles.root, ownerState.dense && styles.dense, ownerState.divider && styles.divider, !ownerState.disableGutters && styles.gutters];
+};
+
+const useUtilityClasses = ownerState => {
+  const {
+    disabled,
+    dense,
+    divider,
+    disableGutters,
+    selected,
+    classes
+  } = ownerState;
+  const slots = {
+    root: ['root', dense && 'dense', disabled && 'disabled', !disableGutters && 'gutters', divider && 'divider', selected && 'selected']
+  };
+  const composedClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_5__["default"])(slots, _menuItemClasses__WEBPACK_IMPORTED_MODULE_6__.getMenuItemUtilityClass, classes);
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, classes, composedClasses);
+};
+
+const MenuItemRoot = (0,_styles_styled__WEBPACK_IMPORTED_MODULE_7__["default"])(_ButtonBase__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  shouldForwardProp: prop => (0,_styles_styled__WEBPACK_IMPORTED_MODULE_7__.rootShouldForwardProp)(prop) || prop === 'classes',
+  name: 'MuiMenuItem',
+  slot: 'Root',
+  overridesResolver
+})(({
+  theme,
+  ownerState
+}) => (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, theme.typography.body1, {
+  display: 'flex',
+  justifyContent: 'flex-start',
+  alignItems: 'center',
+  position: 'relative',
+  textDecoration: 'none',
+  minHeight: 48,
+  paddingTop: 6,
+  paddingBottom: 6,
+  boxSizing: 'border-box',
+  whiteSpace: 'nowrap'
+}, !ownerState.disableGutters && {
+  paddingLeft: 16,
+  paddingRight: 16
+}, ownerState.divider && {
+  borderBottom: `1px solid ${(theme.vars || theme).palette.divider}`,
+  backgroundClip: 'padding-box'
+}, {
+  '&:hover': {
+    textDecoration: 'none',
+    backgroundColor: (theme.vars || theme).palette.action.hover,
+    // Reset on touch devices, it doesn't add specificity
+    '@media (hover: none)': {
+      backgroundColor: 'transparent'
+    }
+  },
+  [`&.${_menuItemClasses__WEBPACK_IMPORTED_MODULE_6__["default"].selected}`]: {
+    backgroundColor: theme.vars ? `rgba(${theme.vars.palette.primary.mainChannel} / ${theme.vars.palette.action.selectedOpacity})` : (0,_mui_system__WEBPACK_IMPORTED_MODULE_9__.alpha)(theme.palette.primary.main, theme.palette.action.selectedOpacity),
+    [`&.${_menuItemClasses__WEBPACK_IMPORTED_MODULE_6__["default"].focusVisible}`]: {
+      backgroundColor: theme.vars ? `rgba(${theme.vars.palette.primary.mainChannel} / calc(${theme.vars.palette.action.selectedOpacity} + ${theme.vars.palette.action.focusOpacity}))` : (0,_mui_system__WEBPACK_IMPORTED_MODULE_9__.alpha)(theme.palette.primary.main, theme.palette.action.selectedOpacity + theme.palette.action.focusOpacity)
+    }
+  },
+  [`&.${_menuItemClasses__WEBPACK_IMPORTED_MODULE_6__["default"].selected}:hover`]: {
+    backgroundColor: theme.vars ? `rgba(${theme.vars.palette.primary.mainChannel} / calc(${theme.vars.palette.action.selectedOpacity} + ${theme.vars.palette.action.hoverOpacity}))` : (0,_mui_system__WEBPACK_IMPORTED_MODULE_9__.alpha)(theme.palette.primary.main, theme.palette.action.selectedOpacity + theme.palette.action.hoverOpacity),
+    // Reset on touch devices, it doesn't add specificity
+    '@media (hover: none)': {
+      backgroundColor: theme.vars ? `rgba(${theme.vars.palette.primary.mainChannel} / ${theme.vars.palette.action.selectedOpacity})` : (0,_mui_system__WEBPACK_IMPORTED_MODULE_9__.alpha)(theme.palette.primary.main, theme.palette.action.selectedOpacity)
+    }
+  },
+  [`&.${_menuItemClasses__WEBPACK_IMPORTED_MODULE_6__["default"].focusVisible}`]: {
+    backgroundColor: (theme.vars || theme).palette.action.focus
+  },
+  [`&.${_menuItemClasses__WEBPACK_IMPORTED_MODULE_6__["default"].disabled}`]: {
+    opacity: (theme.vars || theme).palette.action.disabledOpacity
+  },
+  [`& + .${_Divider__WEBPACK_IMPORTED_MODULE_10__["default"].root}`]: {
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1)
+  },
+  [`& + .${_Divider__WEBPACK_IMPORTED_MODULE_10__["default"].inset}`]: {
+    marginLeft: 52
+  },
+  [`& .${_ListItemText__WEBPACK_IMPORTED_MODULE_11__["default"].root}`]: {
+    marginTop: 0,
+    marginBottom: 0
+  },
+  [`& .${_ListItemText__WEBPACK_IMPORTED_MODULE_11__["default"].inset}`]: {
+    paddingLeft: 36
+  },
+  [`& .${_ListItemIcon__WEBPACK_IMPORTED_MODULE_12__["default"].root}`]: {
+    minWidth: 36
+  }
+}, !ownerState.dense && {
+  [theme.breakpoints.up('sm')]: {
+    minHeight: 'auto'
+  }
+}, ownerState.dense && (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+  minHeight: 32,
+  // https://material.io/components/menus#specs > Dense
+  paddingTop: 4,
+  paddingBottom: 4
+}, theme.typography.body2, {
+  [`& .${_ListItemIcon__WEBPACK_IMPORTED_MODULE_12__["default"].root} svg`]: {
+    fontSize: '1.25rem'
+  }
+})));
+const MenuItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function MenuItem(inProps, ref) {
+  const props = (0,_styles_useThemeProps__WEBPACK_IMPORTED_MODULE_13__["default"])({
+    props: inProps,
+    name: 'MuiMenuItem'
+  });
+
+  const {
+    autoFocus = false,
+    component = 'li',
+    dense = false,
+    divider = false,
+    disableGutters = false,
+    focusVisibleClassName,
+    role = 'menuitem',
+    tabIndex: tabIndexProp
+  } = props,
+        other = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(props, _excluded);
+
+  const context = react__WEBPACK_IMPORTED_MODULE_2__.useContext(_List_ListContext__WEBPACK_IMPORTED_MODULE_14__["default"]);
+  const childContext = {
+    dense: dense || context.dense || false,
+    disableGutters
+  };
+  const menuItemRef = react__WEBPACK_IMPORTED_MODULE_2__.useRef(null);
+  (0,_utils_useEnhancedEffect__WEBPACK_IMPORTED_MODULE_15__["default"])(() => {
+    if (autoFocus) {
+      if (menuItemRef.current) {
+        menuItemRef.current.focus();
+      } else if (true) {
+        console.error('MUI: Unable to set focus to a MenuItem whose component has not been rendered.');
+      }
+    }
+  }, [autoFocus]);
+
+  const ownerState = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    dense: childContext.dense,
+    divider,
+    disableGutters
+  });
+
+  const classes = useUtilityClasses(props);
+  const handleRef = (0,_utils_useForkRef__WEBPACK_IMPORTED_MODULE_16__["default"])(menuItemRef, ref);
+  let tabIndex;
+
+  if (!props.disabled) {
+    tabIndex = tabIndexProp !== undefined ? tabIndexProp : -1;
+  }
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_List_ListContext__WEBPACK_IMPORTED_MODULE_14__["default"].Provider, {
+    value: childContext,
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(MenuItemRoot, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+      ref: handleRef,
+      role: role,
+      tabIndex: tabIndex,
+      component: component,
+      focusVisibleClassName: (0,clsx__WEBPACK_IMPORTED_MODULE_3__["default"])(classes.focusVisible, focusVisibleClassName)
+    }, other, {
+      ownerState: ownerState,
+      classes: classes
+    }))
+  });
+});
+ true ? MenuItem.propTypes
+/* remove-proptypes */
+= {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+
+  /**
+   * If `true`, the list item is focused during the first mount.
+   * Focus will also be triggered if the value changes from false to true.
+   * @default false
+   */
+  autoFocus: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * The content of the component.
+   */
+  children: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().node),
+
+  /**
+   * Override or extend the styles applied to the component.
+   */
+  classes: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().object),
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */
+  component: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().elementType),
+
+  /**
+   * If `true`, compact vertical padding designed for keyboard and mouse input is used.
+   * The prop defaults to the value inherited from the parent Menu component.
+   * @default false
+   */
+  dense: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * @ignore
+   */
+  disabled: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * If `true`, the left and right padding is removed.
+   * @default false
+   */
+  disableGutters: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * If `true`, a 1px light border is added to the bottom of the menu item.
+   * @default false
+   */
+  divider: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * This prop can help identify which element has keyboard focus.
+   * The class name will be applied when the element gains the focus through keyboard interaction.
+   * It's a polyfill for the [CSS :focus-visible selector](https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo).
+   * The rationale for using this feature [is explained here](https://github.com/WICG/focus-visible/blob/HEAD/explainer.md).
+   * A [polyfill can be used](https://github.com/WICG/focus-visible) to apply a `focus-visible` class to other components
+   * if needed.
+   */
+  focusVisibleClassName: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().string),
+
+  /**
+   * @ignore
+   */
+  role: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().string),
+
+  /**
+   * @ignore
+   */
+  selected: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool),
+
+  /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */
+  sx: prop_types__WEBPACK_IMPORTED_MODULE_17___default().oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_17___default().arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_17___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_17___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_17___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_17___default().bool)])), (prop_types__WEBPACK_IMPORTED_MODULE_17___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_17___default().object)]),
+
+  /**
+   * @default 0
+   */
+  tabIndex: (prop_types__WEBPACK_IMPORTED_MODULE_17___default().number)
+} : 0;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MenuItem);
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/MenuItem/menuItemClasses.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@mui/material/MenuItem/menuItemClasses.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getMenuItemUtilityClass": () => (/* binding */ getMenuItemUtilityClass)
+/* harmony export */ });
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js");
+/* harmony import */ var _mui_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/base */ "./node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js");
+
+function getMenuItemUtilityClass(slot) {
+  return (0,_mui_base__WEBPACK_IMPORTED_MODULE_0__["default"])('MuiMenuItem', slot);
+}
+const menuItemClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('MuiMenuItem', ['root', 'focusVisible', 'dense', 'disabled', 'divider', 'gutters', 'selected']);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuItemClasses);
 
 /***/ }),
 
@@ -18683,6 +19083,203 @@ const selectClasses = (0,_mui_base__WEBPACK_IMPORTED_MODULE_1__["default"])('Mui
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/Stack/Stack.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@mui/material/Stack/Stack.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "style": () => (/* binding */ style)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/system */ "./node_modules/@mui/system/esm/breakpoints.js");
+/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/system */ "./node_modules/@mui/system/esm/spacing.js");
+/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/system */ "./node_modules/@mui/system/esm/styleFunctionSx/extendSxProp.js");
+/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/utils */ "./node_modules/@mui/utils/esm/deepmerge.js");
+/* harmony import */ var _styles_styled__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/styled */ "./node_modules/@mui/material/styles/styled.js");
+/* harmony import */ var _styles_useThemeProps__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/useThemeProps */ "./node_modules/@mui/material/styles/useThemeProps.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+const _excluded = ["component", "direction", "spacing", "divider", "children"];
+
+
+
+
+
+
+/**
+ * Return an array with the separator React element interspersed between
+ * each React node of the input children.
+ *
+ * > joinChildren([1,2,3], 0)
+ * [1,0,2,0,3]
+ */
+
+
+
+function joinChildren(children, separator) {
+  const childrenArray = react__WEBPACK_IMPORTED_MODULE_2__.Children.toArray(children).filter(Boolean);
+  return childrenArray.reduce((output, child, index) => {
+    output.push(child);
+
+    if (index < childrenArray.length - 1) {
+      output.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.cloneElement(separator, {
+        key: `separator-${index}`
+      }));
+    }
+
+    return output;
+  }, []);
+}
+
+const getSideFromDirection = direction => {
+  return {
+    row: 'Left',
+    'row-reverse': 'Right',
+    column: 'Top',
+    'column-reverse': 'Bottom'
+  }[direction];
+};
+
+const style = ({
+  ownerState,
+  theme
+}) => {
+  let styles = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    display: 'flex'
+  }, (0,_mui_system__WEBPACK_IMPORTED_MODULE_4__.handleBreakpoints)({
+    theme
+  }, (0,_mui_system__WEBPACK_IMPORTED_MODULE_4__.resolveBreakpointValues)({
+    values: ownerState.direction,
+    breakpoints: theme.breakpoints.values
+  }), propValue => ({
+    flexDirection: propValue
+  })));
+
+  if (ownerState.spacing) {
+    const transformer = (0,_mui_system__WEBPACK_IMPORTED_MODULE_5__.createUnarySpacing)(theme);
+    const base = Object.keys(theme.breakpoints.values).reduce((acc, breakpoint) => {
+      if (typeof ownerState.spacing === 'object' && ownerState.spacing[breakpoint] != null || typeof ownerState.direction === 'object' && ownerState.direction[breakpoint] != null) {
+        acc[breakpoint] = true;
+      }
+
+      return acc;
+    }, {});
+    const directionValues = (0,_mui_system__WEBPACK_IMPORTED_MODULE_4__.resolveBreakpointValues)({
+      values: ownerState.direction,
+      base
+    });
+    const spacingValues = (0,_mui_system__WEBPACK_IMPORTED_MODULE_4__.resolveBreakpointValues)({
+      values: ownerState.spacing,
+      base
+    });
+
+    const styleFromPropValue = (propValue, breakpoint) => {
+      return {
+        '& > :not(style) + :not(style)': {
+          margin: 0,
+          [`margin${getSideFromDirection(breakpoint ? directionValues[breakpoint] : ownerState.direction)}`]: (0,_mui_system__WEBPACK_IMPORTED_MODULE_5__.getValue)(transformer, propValue)
+        }
+      };
+    };
+
+    styles = (0,_mui_utils__WEBPACK_IMPORTED_MODULE_6__["default"])(styles, (0,_mui_system__WEBPACK_IMPORTED_MODULE_4__.handleBreakpoints)({
+      theme
+    }, spacingValues, styleFromPropValue));
+  }
+
+  return styles;
+};
+const StackRoot = (0,_styles_styled__WEBPACK_IMPORTED_MODULE_7__["default"])('div', {
+  name: 'MuiStack',
+  slot: 'Root',
+  overridesResolver: (props, styles) => {
+    return [styles.root];
+  }
+})(style);
+const Stack = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.forwardRef(function Stack(inProps, ref) {
+  const themeProps = (0,_styles_useThemeProps__WEBPACK_IMPORTED_MODULE_8__["default"])({
+    props: inProps,
+    name: 'MuiStack'
+  });
+  const props = (0,_mui_system__WEBPACK_IMPORTED_MODULE_9__["default"])(themeProps);
+
+  const {
+    component = 'div',
+    direction = 'column',
+    spacing = 0,
+    divider,
+    children
+  } = props,
+        other = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(props, _excluded);
+
+  const ownerState = {
+    direction,
+    spacing
+  };
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(StackRoot, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    as: component,
+    ownerState: ownerState,
+    ref: ref
+  }, other, {
+    children: divider ? joinChildren(children, divider) : children
+  }));
+});
+ true ? Stack.propTypes
+/* remove-proptypes */
+= {
+  // ----------------------------- Warning --------------------------------
+  // | These PropTypes are generated from the TypeScript type definitions |
+  // |     To update them edit the d.ts file and run "yarn proptypes"     |
+  // ----------------------------------------------------------------------
+
+  /**
+   * The content of the component.
+   */
+  children: (prop_types__WEBPACK_IMPORTED_MODULE_10___default().node),
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a HTML element or a component.
+   */
+  component: (prop_types__WEBPACK_IMPORTED_MODULE_10___default().elementType),
+
+  /**
+   * Defines the `flex-direction` style property.
+   * It is applied for all screen sizes.
+   * @default 'column'
+   */
+  direction: prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOf(['column-reverse', 'column', 'row-reverse', 'row']), prop_types__WEBPACK_IMPORTED_MODULE_10___default().arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOf(['column-reverse', 'column', 'row-reverse', 'row'])), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().object)]),
+
+  /**
+   * Add an element between each child.
+   */
+  divider: (prop_types__WEBPACK_IMPORTED_MODULE_10___default().node),
+
+  /**
+   * Defines the space between immediate children.
+   * @default 0
+   */
+  spacing: prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_10___default().arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_10___default().number), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().string)])), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().number), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().string)]),
+
+  /**
+   * The system prop, which allows defining system overrides as well as additional CSS styles.
+   */
+  sx: prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_10___default().arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_10___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_10___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().bool)])), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_10___default().object)])
+} : 0;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stack);
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/SvgIcon/SvgIcon.js":
 /*!*******************************************************!*\
   !*** ./node_modules/@mui/material/SvgIcon/SvgIcon.js ***!
@@ -22532,122 +23129,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/@mui/private-theming/ThemeProvider/ThemeProvider.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@mui/private-theming/ThemeProvider/ThemeProvider.js ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/utils */ "./node_modules/@mui/utils/esm/exactProp.js");
-/* harmony import */ var _useTheme_ThemeContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../useTheme/ThemeContext */ "./node_modules/@mui/private-theming/useTheme/ThemeContext.js");
-/* harmony import */ var _useTheme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../useTheme */ "./node_modules/@mui/private-theming/useTheme/useTheme.js");
-/* harmony import */ var _nested__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nested */ "./node_modules/@mui/private-theming/ThemeProvider/nested.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
- // To support composition of theme.
-
-
-
-function mergeOuterLocalTheme(outerTheme, localTheme) {
-  if (typeof localTheme === 'function') {
-    const mergedTheme = localTheme(outerTheme);
-
-    if (true) {
-      if (!mergedTheme) {
-        console.error(['MUI: You should return an object from your theme function, i.e.', '<ThemeProvider theme={() => ({})} />'].join('\n'));
-      }
-    }
-
-    return mergedTheme;
-  }
-
-  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, outerTheme, localTheme);
-}
-/**
- * This component takes a `theme` prop.
- * It makes the `theme` available down the React tree thanks to React context.
- * This component should preferably be used at **the root of your component tree**.
- */
-
-
-function ThemeProvider(props) {
-  const {
-    children,
-    theme: localTheme
-  } = props;
-  const outerTheme = (0,_useTheme__WEBPACK_IMPORTED_MODULE_3__["default"])();
-
-  if (true) {
-    if (outerTheme === null && typeof localTheme === 'function') {
-      console.error(['MUI: You are providing a theme function prop to the ThemeProvider component:', '<ThemeProvider theme={outerTheme => outerTheme} />', '', 'However, no outer theme is present.', 'Make sure a theme is already injected higher in the React tree ' + 'or provide a theme object.'].join('\n'));
-    }
-  }
-
-  const theme = react__WEBPACK_IMPORTED_MODULE_1__.useMemo(() => {
-    const output = outerTheme === null ? localTheme : mergeOuterLocalTheme(outerTheme, localTheme);
-
-    if (output != null) {
-      output[_nested__WEBPACK_IMPORTED_MODULE_4__["default"]] = outerTheme !== null;
-    }
-
-    return output;
-  }, [localTheme, outerTheme]);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_useTheme_ThemeContext__WEBPACK_IMPORTED_MODULE_5__["default"].Provider, {
-    value: theme,
-    children: children
-  });
-}
-
- true ? ThemeProvider.propTypes = {
-  /**
-   * Your component tree.
-   */
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().node),
-
-  /**
-   * A theme object. You can provide a function to extend the outer theme.
-   */
-  theme: prop_types__WEBPACK_IMPORTED_MODULE_6___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_6___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_6___default().func)]).isRequired
-} : 0;
-
-if (true) {
-   true ? ThemeProvider.propTypes = (0,_mui_utils__WEBPACK_IMPORTED_MODULE_7__["default"])(ThemeProvider.propTypes) : 0;
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ThemeProvider);
-
-/***/ }),
-
-/***/ "./node_modules/@mui/private-theming/ThemeProvider/nested.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@mui/private-theming/ThemeProvider/nested.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const hasSymbol = typeof Symbol === 'function' && Symbol.for;
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (hasSymbol ? Symbol.for('mui.nested') : '__THEME_NESTED__');
-
-/***/ }),
-
 /***/ "./node_modules/@mui/private-theming/useTheme/ThemeContext.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@mui/private-theming/useTheme/ThemeContext.js ***!
@@ -23020,92 +23501,6 @@ function createContainer(options = {}) {
   } : 0;
   return Container;
 }
-
-/***/ }),
-
-/***/ "./node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _mui_private_theming__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/private-theming */ "./node_modules/@mui/private-theming/ThemeProvider/ThemeProvider.js");
-/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/utils */ "./node_modules/@mui/utils/esm/exactProp.js");
-/* harmony import */ var _mui_styled_engine__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/styled-engine */ "./node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js");
-/* harmony import */ var _useTheme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../useTheme */ "./node_modules/@mui/system/esm/useTheme.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-
-
-
-
-function InnerThemeProvider(props) {
-  const theme = (0,_useTheme__WEBPACK_IMPORTED_MODULE_2__["default"])();
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_styled_engine__WEBPACK_IMPORTED_MODULE_3__.T.Provider, {
-    value: typeof theme === 'object' ? theme : {},
-    children: props.children
-  });
-}
-
- true ? InnerThemeProvider.propTypes = {
-  /**
-   * Your component tree.
-   */
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().node)
-} : 0;
-/**
- * This component makes the `theme` available down the React tree.
- * It should preferably be used at **the root of your component tree**.
- */
-
-function ThemeProvider(props) {
-  const {
-    children,
-    theme: localTheme
-  } = props;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_private_theming__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    theme: localTheme,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(InnerThemeProvider, {
-      children: children
-    })
-  });
-}
-
- true ? ThemeProvider.propTypes
-/* remove-proptypes */
-= {
-  // ----------------------------- Warning --------------------------------
-  // | These PropTypes are generated from the TypeScript type definitions |
-  // |     To update them edit the d.ts file and run "yarn proptypes"     |
-  // ----------------------------------------------------------------------
-
-  /**
-   * Your component tree.
-   */
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().node),
-
-  /**
-   * A theme object. You can provide a function to extend the outer theme.
-   */
-  theme: prop_types__WEBPACK_IMPORTED_MODULE_4___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_4___default().func), (prop_types__WEBPACK_IMPORTED_MODULE_4___default().object)]).isRequired
-} : 0;
-
-if (true) {
-   true ? ThemeProvider.propTypes = (0,_mui_utils__WEBPACK_IMPORTED_MODULE_6__["default"])(ThemeProvider.propTypes) : 0;
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ThemeProvider);
 
 /***/ }),
 
@@ -32291,16 +32686,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
-/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Modal/Modal.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Grid/Grid.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
@@ -32311,16 +32726,130 @@ function createData(name) {
   return {
     name: name
   };
-}
+} // get all companies
+
 
 function Companies() {
-  var rows = [createData('Company1'), createData('Company2')];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  // const rows = [
+  //     createData('Company1'),
+  //     createData('Company2'),
+  // ];
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState2 = _slicedToArray(_useState, 2),
+      company = _useState2[0],
+      setCompany = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      companyID = _useState4[0],
+      setCompanyID = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      open = _useState6[0],
+      setOpen = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState8 = _slicedToArray(_useState7, 2),
+      open2 = _useState8[0],
+      setOpen2 = _useState8[1];
+
+  var handleClose = function handleClose() {
+    return setOpen(false);
+  };
+
+  var handleClose2 = function handleClose2() {
+    return setOpen2(false);
+  };
+
+  var handleCreate = function handleCreate() {
+    return setOpen(true);
+  }; //getting id to pass in controller, retrieve details from controller
+
+
+  var handleEdit = function handleEdit(event) {
+    setOpen2(true);
+    var idCompany = event.currentTarget.id; // console.log(event.currentTarget.id);
+
+    var url = "http://localhost:8000/companies/".concat(idCompany, "/edit");
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get(url).then(function (response) {
+      var companyInfo = response; // console.log(companyInfo.data[0].id);
+
+      setCompanyID(companyInfo.data[0].id);
+      setCompany(companyInfo.data[0].company);
+    });
+  };
+
+  var style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4
+  }; //retrieving companies
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState10 = _slicedToArray(_useState9, 2),
+      companies = _useState10[0],
+      setCompanies = _useState10[1];
+
+  var getCompanies = function getCompanies() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getAllCompanies').then(function (response) {
+      // console.log(response);
+      var allCompanies = response.data.companies;
+      setCompanies(allCompanies);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getCompanies();
+  }, []); //create company
+
+  var handleSubmit = function handleSubmit(event) {
+    event.preventDefault();
+    var company = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/companies";
+    var companyDetails = {
+      company: company.get('company')
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().post(url, companyDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen(false);
+    });
+    console.log({
+      company: company.get('company')
+    });
+  }; //update company
+
+
+  var handleSubmit2 = function handleSubmit2(event) {
+    event.preventDefault();
+    var company = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/companies/".concat(company.get('id'));
+    console.log(url);
+    var companyDetails = {
+      id: company.get('id'),
+      company: company.get('company')
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put(url, companyDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen2(false);
+    });
+    console.log({
+      company: company.get('company')
+    });
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
     maxWidth: "lg",
     sx: {
       mt: 4
     },
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
       component: "h1",
       variant: "h6",
       color: "inherit",
@@ -32329,34 +32858,180 @@ function Companies() {
         flexGrow: 1
       },
       children: "Companies"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      component: _mui_material__WEBPACK_IMPORTED_MODULE_5__["default"],
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        mb: 1
+      },
+      variant: "contained",
+      onClick: handleCreate,
+      children: "Create Company"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      component: _mui_material__WEBPACK_IMPORTED_MODULE_7__["default"],
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
         sx: {
           minWidth: 650
         },
         "aria-label": "simple table",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
               children: "Companies"
-            })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "center",
+              children: "Actions"
+            })]
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
-          children: rows.map(function (row) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          children: companies === null || companies === void 0 ? void 0 : companies.map(function (row) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
               sx: {
                 '&:last-child td, &:last-child th': {
                   border: 0
                 }
               },
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 component: "th",
                 scope: "row",
-                children: row.name
-              })
-            }, row.name);
+                children: row.company
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "center",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                  variant: "contained",
+                  onClick: handleEdit,
+                  id: row.id,
+                  children: " Edit"
+                })
+              })]
+            }, row.id);
           })
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open,
+      onClose: handleClose,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Create Company"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open2,
+      onClose: handleClose2,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit2,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Update User"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sx: {
+              display: {
+                xs: 'none',
+                md: 'none'
+              }
+            },
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "id",
+              id: "id",
+              label: "id",
+              value: companyID,
+              onChange: function onChange(e) {
+                return setCompanyID(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
         })]
       })
     })]
@@ -32364,6 +33039,709 @@ function Companies() {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Companies);
+
+/***/ }),
+
+/***/ "./resources/js/components/EmployeesComponent.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/EmployeesComponent.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Modal/Modal.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Grid/Grid.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/FormControl/FormControl.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/InputLabel/InputLabel.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
+/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+function Employees() {
+  var handleClose = function handleClose() {
+    return setOpen(false);
+  };
+
+  var handleClose2 = function handleClose2() {
+    return setOpen2(false);
+  };
+
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      open = _useState2[0],
+      setOpen = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      open2 = _useState4[0],
+      setOpen2 = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      userId = _useState6[0],
+      setUserId = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState8 = _slicedToArray(_useState7, 2),
+      firstName = _useState8[0],
+      setfirstName = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState10 = _slicedToArray(_useState9, 2),
+      lastName = _useState10[0],
+      setlastName = _useState10[1];
+
+  var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState12 = _slicedToArray(_useState11, 2),
+      email = _useState12[0],
+      setEmail = _useState12[1];
+
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState14 = _slicedToArray(_useState13, 2),
+      company = _useState14[0],
+      setCompany = _useState14[1];
+
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState16 = _slicedToArray(_useState15, 2),
+      companyId = _useState16[0],
+      setCompanyId = _useState16[1];
+
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState18 = _slicedToArray(_useState17, 2),
+      roleUser = _useState18[0],
+      setRole = _useState18[1];
+
+  var style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4
+  };
+  var userRole = ['Owner', 'Administrator', 'Payroll Officer', 'Employee']; //get logged in user
+
+  var getLoggedInUser = function getLoggedInUser() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getLoggedInUser').then(function (response) {
+      // console.log(response.data.user);
+      var userData = response.data.user;
+      setUserId(userData.id);
+      setfirstName(userData.firstName);
+      setlastName(userData.lastName);
+      setEmail(userData.email);
+      setCompany(userData.company);
+      setCompanyId(userData.companyId);
+
+      if (userData.role === "Employee") {
+        //hiding elements in the UI
+        setShow(!show);
+      }
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getLoggedInUser();
+  }, []); //retrieving company
+
+  var _useState19 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState20 = _slicedToArray(_useState19, 2),
+      companyOptions = _useState20[0],
+      setCompanyOptions = _useState20[1];
+
+  var getCompany = function getCompany() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getCompany').then(function (response) {
+      // console.log(response.data.company);
+      var allCompanies = response.data.company;
+      setCompanyOptions(allCompanies);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getCompany();
+  }, []); //retrieving users
+
+  var _useState21 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState22 = _slicedToArray(_useState21, 2),
+      employee = _useState22[0],
+      setEmployee = _useState22[1];
+
+  var getEmployees = function getEmployees() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getEmployees').then(function (response) {
+      console.log(response);
+      var allEmployees = response.data.employee;
+      setEmployee(allEmployees);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getEmployees();
+  }, []); //create user
+
+  var handleCreate = function handleCreate() {
+    setOpen2(true);
+  };
+
+  var handleSubmit2 = function handleSubmit2(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/users";
+    var userDetails = {
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().post(url, userDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen2(false);
+    });
+    console.log({
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    });
+  }; //handling modal open and getting details for modal edit
+
+
+  var handleEdit = function handleEdit(event) {
+    setOpen(true);
+    var userID = event.currentTarget.id;
+    console.log(event.currentTarget.id);
+    var url = "http://localhost:8000/users/".concat(userID, "/edit");
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get(url).then(function (response) {
+      var userInfo = response.data[0]; // console.log(userInfo.role);
+
+      setUserId(userInfo.id);
+      setfirstName(userInfo.firstName);
+      setlastName(userInfo.lastName);
+      setEmail(userInfo.email);
+      setCompany(userInfo.company);
+      setCompanyId(userInfo.companyId);
+      setRole(userInfo.role);
+    });
+  }; //update details
+
+
+  var handleSubmit = function handleSubmit(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/users/".concat(user.get('id'));
+    var userDetails = {
+      id: user.get('id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put(url, userDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen(false);
+    });
+    console.log({
+      id: user.get('id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    });
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    maxWidth: "lg",
+    sx: {
+      mt: 4
+    },
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      component: "h1",
+      variant: "h6",
+      color: "inherit",
+      noWrap: true,
+      sx: {
+        flexGrow: 1,
+        mb: 1
+      },
+      children: "Employees"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        mb: 1
+      },
+      variant: "contained",
+      onClick: handleCreate,
+      children: "Create Employee"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      component: _mui_material__WEBPACK_IMPORTED_MODULE_7__["default"],
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        sx: {
+          minWidth: 650
+        },
+        "aria-label": "simple table",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              children: "Employee"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Email"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Company"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "company Id"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Role"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "center",
+              children: "Actions"
+            })]
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          children: employee === null || employee === void 0 ? void 0 : employee.map(function (data) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+              sx: {
+                '&:last-child td, &:last-child th': {
+                  border: 0
+                }
+              },
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                component: "th",
+                scope: "row",
+                children: [data.firstName, " ", data.lastName]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.email
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.company
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.companyId
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.role
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "center",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                  variant: "contained",
+                  onClick: handleEdit,
+                  id: data.id,
+                  children: " Edit"
+                })
+              })]
+            }, data.id);
+          })
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open2,
+      onClose: handleClose2,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit2,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Create Employee"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              type: "email",
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              fullWidth: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_18__["default"], {
+                children: "Company"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_19__["default"], {
+                value: company,
+                onChange: function onChange(e) {
+                  return setCompany(e.target.value);
+                },
+                children: companyOptions === null || companyOptions === void 0 ? void 0 : companyOptions.map(function (_ref) {
+                  var id = _ref.id,
+                      company = _ref.company;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                    id: "company",
+                    value: company,
+                    children: company
+                  }, id);
+                })
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_21__["default"], {
+              disablePortal: true,
+              name: "role",
+              id: "role",
+              options: userRole,
+              onChange: function onChange(event, value) {
+                return setRole(value);
+              },
+              renderInput: function renderInput(params) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], _objectSpread(_objectSpread({}, params), {}, {
+                  label: "Role"
+                }));
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Create"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open,
+      onClose: handleClose,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Update User"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              type: "email",
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              fullWidth: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_18__["default"], {
+                children: "Company"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_19__["default"], {
+                value: company,
+                onChange: function onChange(e) {
+                  return setCompany(e.target.value);
+                },
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                  id: "company",
+                  name: "company",
+                  value: company,
+                  children: company
+                }), companyOptions === null || companyOptions === void 0 ? void 0 : companyOptions.map(function (_ref2) {
+                  var id = _ref2.id,
+                      company = _ref2.company;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                    id: "company",
+                    value: company,
+                    children: company
+                  }, id);
+                })]
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_21__["default"], {
+              disablePortal: true,
+              name: "role",
+              id: "role",
+              options: userRole,
+              onChange: function onChange(event, value) {
+                return setRole(value);
+              },
+              renderInput: function renderInput(params) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], _objectSpread(_objectSpread({}, params), {}, {
+                  label: "Role"
+                }));
+              },
+              value: roleUser
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
+        })]
+      })
+    })]
+  });
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Employees);
 
 /***/ }),
 
@@ -32487,15 +33865,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
 
 function Home() {
+  //retrieving user details
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      details = _useState2[0],
+      setDetails = _useState2[1];
+
+  var getLoggedInUser = function getLoggedInUser() {
+    axios.get('/getLoggedInUser').then(function (response) {
+      console.log(response.data.user);
+      var userData = response.data.user;
+      setDetails(userData);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getLoggedInUser();
+  }, []);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
     maxWidth: "lg",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
-      children: "Home"
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("h1", {
+      children: ["Welcome ", details.firstName, " ", details.lastName]
     })
   });
 }
@@ -32547,36 +33955,433 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
-/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Stack/Stack.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Modal/Modal.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Grid/Grid.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
 
 
-function createData(name, loans) {
-  return {
-    name: name,
-    loans: loans
-  };
-}
+
 
 function Loans() {
-  var rows = [createData('John Doe', 'Loan1'), createData('Jane Doe', 'Loan2')];
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState2 = _slicedToArray(_useState, 2),
+      userId = _useState2[0],
+      setUserId = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      user_id = _useState4[0],
+      setUser_id = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      firstName = _useState6[0],
+      setfirstName = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState8 = _slicedToArray(_useState7, 2),
+      lastName = _useState8[0],
+      setlastName = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState10 = _slicedToArray(_useState9, 2),
+      email = _useState10[0],
+      setEmail = _useState10[1];
+
+  var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState12 = _slicedToArray(_useState11, 2),
+      company = _useState12[0],
+      setCompany = _useState12[1];
+
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState14 = _slicedToArray(_useState13, 2),
+      companyId = _useState14[0],
+      setCompanyId = _useState14[1];
+
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState16 = _slicedToArray(_useState15, 2),
+      loanAmnt = _useState16[0],
+      setLoanAmnt = _useState16[1];
+
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState18 = _slicedToArray(_useState17, 2),
+      loanStatus = _useState18[0],
+      setLoanStatus = _useState18[1];
+
+  var _useState19 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState20 = _slicedToArray(_useState19, 2),
+      bankName = _useState20[0],
+      setBankName = _useState20[1];
+
+  var _useState21 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState22 = _slicedToArray(_useState21, 2),
+      accountName = _useState22[0],
+      setAccountName = _useState22[1];
+
+  var _useState23 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState24 = _slicedToArray(_useState23, 2),
+      accountNmber = _useState24[0],
+      setAccountNmber = _useState24[1];
+
+  var _useState25 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState26 = _slicedToArray(_useState25, 2),
+      capitalID = _useState26[0],
+      setCapitalID = _useState26[1];
+
+  var _useState27 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState28 = _slicedToArray(_useState27, 2),
+      capital = _useState28[0],
+      setCapital = _useState28[1];
+
+  var _useState29 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState30 = _slicedToArray(_useState29, 2),
+      open = _useState30[0],
+      setOpen = _useState30[1];
+
+  var _useState31 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState32 = _slicedToArray(_useState31, 2),
+      open2 = _useState32[0],
+      setOpen2 = _useState32[1];
+
+  var _useState33 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState34 = _slicedToArray(_useState33, 2),
+      open3 = _useState34[0],
+      setOpen3 = _useState34[1];
+
+  var _useState35 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState36 = _slicedToArray(_useState35, 2),
+      open4 = _useState36[0],
+      setOpen4 = _useState36[1];
+
+  var handleClose = function handleClose() {
+    return setOpen(false);
+  };
+
+  var handleClose2 = function handleClose2() {
+    return setOpen2(false);
+  };
+
+  var handleClose3 = function handleClose3() {
+    return setOpen3(false);
+  };
+
+  var handleClose4 = function handleClose4() {
+    return setOpen4(false);
+  }; //modal style
+
+
+  var style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4
+  };
+
+  var _useState37 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState38 = _slicedToArray(_useState37, 2),
+      show = _useState38[0],
+      setShow = _useState38[1]; //hiding elements in the UI\
+
+
+  var _useState39 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState40 = _slicedToArray(_useState39, 2),
+      show2 = _useState40[0],
+      setShow2 = _useState40[1]; //hiding elements in the UI\
+
+
+  var _useState41 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState42 = _slicedToArray(_useState41, 2),
+      show3 = _useState42[0],
+      setShow3 = _useState42[1]; //hiding elements in the UI\\
+  // const [show4, setShow4] = useState(true); //hiding elements in the UI\
+
+
+  var _useState43 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState44 = _slicedToArray(_useState43, 2),
+      showCapital = _useState44[0],
+      setShowCapital = _useState44[1]; //hiding elements in the UI\\
+  //get logged in user
+
+
+  var getLoggedInUser = function getLoggedInUser() {
+    axios.get('/getLoggedInUser').then(function (response) {
+      console.log(response.data.user);
+      var userData = response.data.user;
+      setUserId(userData.id);
+      setfirstName(userData.firstName);
+      setlastName(userData.lastName);
+      setEmail(userData.email);
+      setCompany(userData.company);
+      setCompanyId(userData.companyId);
+
+      if (userData.role === "Administrator" || userData.role === "Owner") {
+        //hiding elements in the UI
+        setShow(!show);
+        setShowCapital(!showCapital);
+      } else if (userData.role === "Employee") {
+        setShow2(!show2);
+      }
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getLoggedInUser();
+  }, []); //get loans of user
+
+  var _useState45 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState46 = _slicedToArray(_useState45, 2),
+      myLoans = _useState46[0],
+      setMyLoans = _useState46[1];
+
+  var getMyLoans = function getMyLoans() {
+    axios.get('/getMyLoans').then(function (response) {
+      console.log(response.data.loans);
+      var userLoans = response.data.loans;
+      setMyLoans(userLoans); // setUserId(userData.id);
+      // setfirstName(userData.firstName);
+      // setlastName(userData.lastName);
+      // setEmail(userData.email);
+      // setCompany(userData.company);
+      // setCompanyId(userData.companyId);
+      // userLoans.map((row) => {
+      //     if (row.status === "Approved" && row.user_id === row.user_id) { setShow3(show3) } else { setShow3(!show3) }
+      // })
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getMyLoans();
+  }, []); //create loans
+
+  var handleCreate = function handleCreate() {
+    setOpen(true);
+  };
+
+  var handleSubmit = function handleSubmit(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/loans";
+    var userLoanDetails = {
+      user_id: userId,
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: user.get('company'),
+      companyId: user.get('companyId'),
+      loanAmnt: user.get('loanAmnt')
+    };
+    axios.post(url, userLoanDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen(false);
+    });
+    console.log({
+      user_id: userId,
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: user.get('company'),
+      companyId: user.get('companyId'),
+      loanAmnt: user.get('loanAmnt')
+    });
+  }; //edit request for loans
+
+
+  var handleEdit = function handleEdit(event) {
+    setOpen2(true);
+    var userID = event.currentTarget.id;
+    console.log(event.currentTarget.id);
+    var url = "http://localhost:8000/loans/".concat(userID, "/edit");
+    axios.get(url).then(function (response) {
+      var userInfo = response.data[0];
+      console.log(userInfo);
+      setUserId(userInfo.id);
+      setUser_id(userInfo.user_id);
+      setfirstName(userInfo.firstName);
+      setlastName(userInfo.lastName);
+      setEmail(userInfo.email);
+      setCompany(userInfo.company);
+      setCompanyId(userInfo.companyId);
+      setBankName(userInfo.bankName);
+      setAccountName(userInfo.accountName);
+      setAccountNmber(userInfo.accountNmbr);
+      setLoanAmnt(userInfo.loanAmnt);
+      setLoanStatus(userInfo.status);
+    });
+  };
+
+  var handleSubmit2 = function handleSubmit2(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/loans/".concat(user.get('id'));
+    var userLoanDetails = {
+      id: userId,
+      user_id: user.get('user_id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: user.get('company'),
+      companyId: user.get('companyId'),
+      loanAmnt: user.get('loanAmnt'),
+      bankName: user.get('bankName'),
+      accountName: user.get('accountName'),
+      accountNmber: user.get('accountNmbr'),
+      status: user.get('status')
+    };
+    axios.put(url, userLoanDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen2(false);
+    });
+    console.log({
+      id: userId,
+      user_id: user.get('user_id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: user.get('company'),
+      companyId: user.get('companyId'),
+      loanAmnt: user.get('loanAmnt'),
+      bankName: user.get('bankName'),
+      accountName: user.get('accountName'),
+      accountNmber: user.get('accountNmbr'),
+      status: user.get('status')
+    });
+  }; //handle Approve of loan
+
+
+  var handleApprove = function handleApprove(event) {
+    setOpen3(true);
+    var userID = event.currentTarget.id;
+    console.log(event.currentTarget.id);
+    var url = "http://localhost:8000/loans/".concat(userID, "/edit");
+    axios.get(url).then(function (response) {
+      var userInfo = response.data[0];
+      console.log(userInfo);
+      setUserId(userInfo.id);
+      setUser_id(userInfo.user_id);
+      setfirstName(userInfo.firstName);
+      setlastName(userInfo.lastName);
+      setEmail(userInfo.email);
+      setCompany(userInfo.company);
+      setCompanyId(userInfo.companyId);
+      setLoanAmnt(userInfo.loanAmnt);
+      setBankName(userInfo.bankName);
+      setAccountName(userInfo.accountName);
+      setAccountNmber(userInfo.accountNmbr);
+      setLoanStatus(userInfo.status);
+    });
+  };
+
+  var handleSubmit3 = function handleSubmit3(event) {
+    event.preventDefault();
+    var url = "http://localhost:8000/loanApproved/".concat(event.currentTarget.id);
+    var loanDetails = new FormData(event.currentTarget);
+    var userLoanDetails = {
+      id: userId,
+      loanAmnt: loanDetails.get('loanAmnt')
+    };
+    axios.put(url, userLoanDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen3(false);
+    });
+    console.log({
+      id: userId,
+      loanAmnt: loanDetails.get('loanAmnt')
+    });
+  }; //handle Cancel of loan
+
+
+  var handleCancel = function handleCancel(event) {
+    console.log(event.currentTarget.id);
+    var url = "http://localhost:8000/loanCancelled/".concat(event.currentTarget.id);
+    var userLoanID = {
+      id: event.currentTarget.id
+    };
+    axios.put(url, userLoanID).then(function (response) {
+      console.log('Success', response);
+    });
+  }; //handle Edit Capital 
+
+
+  var handleEditCapital = function handleEditCapital() {
+    setOpen4(true);
+    var url = "http://localhost:8000/getCapital";
+    axios.get(url).then(function (response) {
+      var capitalInfo = response.data.capital[0];
+      console.log(response.data.capital);
+      setCapitalID(capitalInfo.id), setCapital(capitalInfo.capital);
+    });
+  };
+
+  var handleSubmit4 = function handleSubmit4(event) {
+    event.preventDefault();
+    var capital = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/editCapital/".concat(capital.get('id'));
+    var capitalChange = {
+      id: capital.get('id'),
+      capital: capital.get('capital')
+    };
+    axios.put(url, capitalChange).then(function (response) {
+      console.log('Success', response);
+      setOpen4(false);
+    });
+    console.log({
+      id: capital.get('capitalID'),
+      capital: capital.get('capital')
+    });
+  }; //retrieving capital details
+
+
+  var getCurrentCapital = function getCurrentCapital() {
+    axios.get('/getCapital').then(function (response) {
+      // console.log(response.data.capital[0]);
+      var capital = response.data.capital[0];
+      setCapital(capital.capital);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getCurrentCapital();
+  }, []);
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
     sx: {
       mt: 4
     },
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
       component: "h1",
       variant: "h6",
       color: "inherit",
@@ -32585,40 +34390,919 @@ function Loans() {
         flexGrow: 1
       },
       children: "Loans"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      component: _mui_material__WEBPACK_IMPORTED_MODULE_5__["default"],
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }), show ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        mb: 1
+      },
+      variant: "contained",
+      onClick: handleCreate,
+      children: "Request Loan"
+    }) : null, showCapital ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        mb: 1
+      },
+      variant: "contained",
+      onClick: handleEditCapital,
+      children: "Edit Capital"
+    }) : null, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      component: "h1",
+      variant: "h6",
+      color: "inherit",
+      noWrap: true,
+      sx: {
+        flexGrow: 1
+      },
+      children: ["Current Capital \xA0(\u20B1): ", capital]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      component: _mui_material__WEBPACK_IMPORTED_MODULE_7__["default"],
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
         sx: {
           minWidth: 650
         },
         "aria-label": "simple table",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
-              children: "Employee"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              children: "First Name"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "left",
+              children: "Last Name"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
               align: "right",
-              children: "Loans"
+              children: "Company"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Company ID"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Email "
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Loan Amount \xA0(\u20B1) "
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Status "
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Actions "
             })]
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
-          children: rows.map(function (row) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          children: myLoans.map(function (row) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
               sx: {
                 '&:last-child td, &:last-child th': {
                   border: 0
                 }
               },
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 component: "th",
                 scope: "row",
-                children: row.name
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                children: row.firstName
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "left",
+                children: row.lastName
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 align: "right",
-                children: row.loans
+                children: row.company
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: row.companyId
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: row.email
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: row.loanAmnt
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: row.status
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+                  spacing: 1,
+                  children: [show2 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                    variant: "contained",
+                    color: "success",
+                    onClick: handleApprove,
+                    id: row.id,
+                    children: " Approve"
+                  }) : null, show2 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                    variant: "outlined",
+                    color: "error",
+                    onClick: handleCancel,
+                    id: row.id,
+                    children: " Cancel"
+                  }) : null, show3 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                    variant: "contained",
+                    onClick: handleEdit,
+                    id: row.id,
+                    children: " Edit"
+                  }) : null]
+                })
               })]
-            }, row.name);
+            }, row.id);
           })
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      open: open,
+      onClose: handleClose,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Request Loan"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "email",
+              id: "email",
+              label: "Email",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "loanAmnt",
+              id: "loanAmnt",
+              label: "Loan Amount\xA0(\u20B1)",
+              value: loanAmnt,
+              onChange: function onChange(e) {
+                return setLoanAmnt(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Create"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      open: open2,
+      onClose: handleClose2,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit2,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Request Loan"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "user_id",
+            id: "user_id",
+            label: "user_id",
+            autoFocus: true,
+            value: user_id,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "email",
+              id: "email",
+              label: "Email",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "loanAmnt",
+              id: "loanAmnt",
+              label: "Loan Amount\xA0(\u20B1)",
+              value: loanAmnt,
+              onChange: function onChange(e) {
+                return setLoanAmnt(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "bankName",
+              id: "bankName",
+              label: "Bank Name",
+              value: bankName,
+              onChange: function onChange(e) {
+                return setBankName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "accountName",
+              id: "accountName",
+              label: "Account Name",
+              value: accountName,
+              onChange: function onChange(e) {
+                return setAccountName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "accountNmbr",
+              id: "accountNmbr",
+              label: "Account Number",
+              value: accountNmber,
+              onChange: function onChange(e) {
+                return setAccountNmber(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "status",
+              id: "status",
+              label: "Status",
+              value: loanStatus,
+              onChange: function onChange(e) {
+                return setLoanStatus(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      open: open3,
+      onClose: handleClose3,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit3,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Request Loan"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "user_id",
+            id: "user_id",
+            label: "user_id",
+            autoFocus: true,
+            value: user_id,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "email",
+              id: "email",
+              label: "Email",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "loanAmnt",
+              id: "loanAmnt",
+              label: "Loan Amount\xA0(\u20B1)",
+              value: loanAmnt,
+              onChange: function onChange(e) {
+                return setLoanAmnt(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "bankName",
+              id: "bankName",
+              label: "Bank Name",
+              value: bankName,
+              onChange: function onChange(e) {
+                return setBankName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "accountName",
+              id: "accountName",
+              label: "Account Name",
+              value: accountName,
+              onChange: function onChange(e) {
+                return setAccountName(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "accountNmbr",
+              id: "accountNmbr",
+              label: "Account Number",
+              value: accountNmber,
+              onChange: function onChange(e) {
+                return setAccountNmber(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "status",
+              id: "status",
+              label: "Status",
+              value: loanStatus,
+              onChange: function onChange(e) {
+                return setLoanStatus(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Approve"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      open: open4,
+      onClose: handleClose4,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit4,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Request Loan"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: capitalID,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+          container: true,
+          spacing: 2,
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              name: "capital",
+              id: "capital",
+              label: "Capital",
+              value: capital,
+              onChange: function onChange(e) {
+                return setCapital(e.target.value);
+              },
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Capital"
         })]
       })
     })]
@@ -32642,8 +35326,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _HeaderComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HeaderComponent */ "./resources/js/components/HeaderComponent.js");
 /* harmony import */ var _FooterComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FooterComponent */ "./resources/js/components/FooterComponent.js");
 /* harmony import */ var _LandingComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./LandingComponent */ "./resources/js/components/LandingComponent.js");
@@ -32653,7 +35337,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ProfileComponent__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ProfileComponent */ "./resources/js/components/ProfileComponent.js");
 /* harmony import */ var _CompaniesComponent__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CompaniesComponent */ "./resources/js/components/CompaniesComponent.js");
 /* harmony import */ var _UsersComponent__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./UsersComponent */ "./resources/js/components/UsersComponent.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _EmployeesComponent__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./EmployeesComponent */ "./resources/js/components/EmployeesComponent.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -32671,44 +35357,47 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Main() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_HeaderComponent__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_HeaderComponent__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/login"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/#",
         component: _LandingComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/home",
         component: _HomeComponent__WEBPACK_IMPORTED_MODULE_6__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/example",
         component: _Example__WEBPACK_IMPORTED_MODULE_5__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/loans",
         component: _LoansComponent__WEBPACK_IMPORTED_MODULE_7__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/profile",
         component: _ProfileComponent__WEBPACK_IMPORTED_MODULE_8__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/companies",
         component: _CompaniesComponent__WEBPACK_IMPORTED_MODULE_9__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_13__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
         path: "/users",
         component: _UsersComponent__WEBPACK_IMPORTED_MODULE_10__["default"]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_14__.Route, {
+        path: "/employees",
+        component: _EmployeesComponent__WEBPACK_IMPORTED_MODULE_11__["default"]
       })]
     })
   });
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router_dom__WEBPACK_IMPORTED_MODULE_13__.withRouter)(Main));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router_dom__WEBPACK_IMPORTED_MODULE_14__.withRouter)(Main));
 
 /***/ }),
 
-/***/ "./resources/js/components/NavbarComponent.js":
-/*!****************************************************!*\
-  !*** ./resources/js/components/NavbarComponent.js ***!
-  \****************************************************/
+/***/ "./resources/js/components/NavControlsCompnent.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/NavControlsCompnent.js ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -32717,15 +35406,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _mui_material_AppBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material/AppBar */ "./node_modules/@mui/material/AppBar/AppBar.js");
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/Button */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material/Button */ "./node_modules/@mui/material/Button/Button.js");
 /* harmony import */ var _mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/CssBaseline */ "./node_modules/@mui/material/CssBaseline/CssBaseline.js");
 /* harmony import */ var _mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material/Toolbar */ "./node_modules/@mui/material/Toolbar/Toolbar.js");
 /* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material/Typography */ "./node_modules/@mui/material/Typography/Typography.js");
-/* harmony import */ var _mui_material_Link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Link */ "./node_modules/@mui/material/Link/Link.js");
+/* harmony import */ var _mui_material_Link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/Link */ "./node_modules/@mui/material/Link/Link.js");
+/* harmony import */ var _mui_material_Chip__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Chip */ "./node_modules/@mui/material/Chip/Chip.js");
 /* harmony import */ var _mui_material_GlobalStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/GlobalStyles */ "./node_modules/@mui/material/GlobalStyles/GlobalStyles.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -32745,7 +35447,59 @@ var logout = function logout() {
   });
 };
 
-function Navbar() {
+var NavControls = function NavControls() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState2 = _slicedToArray(_useState, 2),
+      show = _useState2[0],
+      setShow = _useState2[1]; //hiding elements in the UI
+
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState4 = _slicedToArray(_useState3, 2),
+      show2 = _useState4[0],
+      setShow2 = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState6 = _slicedToArray(_useState5, 2),
+      show3 = _useState6[0],
+      setShow3 = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState8 = _slicedToArray(_useState7, 2),
+      show4 = _useState8[0],
+      setShow4 = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState10 = _slicedToArray(_useState9, 2),
+      showRole = _useState10[0],
+      setShowRole = _useState10[1]; //retrieving user 
+
+
+  var getLoggedInUser = function getLoggedInUser() {
+    axios.get('/getLoggedInUser').then(function (response) {
+      console.log(response.data.user);
+      var user = response.data.user;
+      setShowRole(user.role);
+
+      if (user.role === "Employee") {
+        //hiding elements in the UI
+        setShow(!show);
+        setShow2(!show2);
+        setShow4(!show4);
+      } else if (user.role === "Payroll Officer") {
+        setShow(!show);
+        setShow4(!show4);
+      } else if (user.role === "Administrator") {
+        setShow4(!show4);
+      } else {
+        console.log("No Role Found");
+      }
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getLoggedInUser();
+  }, []);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_GlobalStyles__WEBPACK_IMPORTED_MODULE_2__["default"], {
       styles: {
@@ -32776,51 +35530,65 @@ function Navbar() {
             flexGrow: 1
           },
           children: "quickcash.ph"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Chip__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          label: showRole,
+          color: "success",
+          variant: "outlined"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "button",
             color: "text.primary",
-            component: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.NavLink,
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
             to: "/home",
             sx: {
               my: 1,
               mx: 1.5
             },
             children: "Home"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          }), show ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "button",
             color: "text.primary",
-            component: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.NavLink,
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
             to: "/companies",
             sx: {
               my: 1,
               mx: 1.5
             },
             children: "Companies"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          }) : null, show2 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "button",
             color: "text.primary",
-            component: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.NavLink,
-            to: "/users",
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
+            to: "/employees",
             sx: {
               my: 1,
               mx: 1.5
             },
-            children: "Users"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            children: "Employees"
+          }) : null, show3 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "button",
             color: "text.primary",
-            component: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.NavLink,
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
             to: "/loans",
             sx: {
               my: 1,
               mx: 1.5
             },
             children: "Loans"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          }) : null, show4 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "button",
             color: "text.primary",
-            component: react_router_dom__WEBPACK_IMPORTED_MODULE_8__.NavLink,
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
+            to: "/users",
+            sx: {
+              my: 1,
+              mx: 1.5
+            },
+            children: "Users"
+          }) : null, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            variant: "button",
+            color: "text.primary",
+            component: react_router_dom__WEBPACK_IMPORTED_MODULE_9__.NavLink,
             to: "/profile",
             sx: {
               my: 1,
@@ -32828,7 +35596,7 @@ function Navbar() {
             },
             children: "Profile"
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Button__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Button__WEBPACK_IMPORTED_MODULE_10__["default"], {
           href: "#",
           onClick: logout,
           variant: "outlined",
@@ -32841,7 +35609,41 @@ function Navbar() {
       })
     })]
   });
-}
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavControls);
+
+/***/ }),
+
+/***/ "./resources/js/components/NavbarComponent.js":
+/*!****************************************************!*\
+  !*** ./resources/js/components/NavbarComponent.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _NavControlsCompnent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavControlsCompnent */ "./resources/js/components/NavControlsCompnent.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+
+
+
+
+
+
+var Navbar = function Navbar() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_NavControlsCompnent__WEBPACK_IMPORTED_MODULE_1__["default"], {});
+};
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);
 
@@ -32859,207 +35661,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
-/* harmony import */ var _mui_material_Avatar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Avatar */ "./node_modules/@mui/material/Avatar/Avatar.js");
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material/Button */ "./node_modules/@mui/material/Button/Button.js");
-/* harmony import */ var _mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material/CssBaseline */ "./node_modules/@mui/material/CssBaseline/CssBaseline.js");
-/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material/TextField */ "./node_modules/@mui/material/TextField/TextField.js");
-/* harmony import */ var _mui_material_Link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/Link */ "./node_modules/@mui/material/Link/Link.js");
-/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material/Grid */ "./node_modules/@mui/material/Grid/Grid.js");
-/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material/Box */ "./node_modules/@mui/material/Box/Box.js");
-/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/Typography */ "./node_modules/@mui/material/Typography/Typography.js");
-/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/styles */ "./node_modules/@mui/material/styles/createTheme.js");
-/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/styles */ "./node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js");
-/* harmony import */ var _mui_material_Autocomplete__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material/Autocomplete */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function Profile() {
-  var theme = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_2__["default"])();
-
-  var handleSubmit = function handleSubmit(event) {
-    event.preventDefault();
-    var data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password')
-    });
-  };
-
-  var top100Films = [{
-    label: 'The Shawshank Redemption'
-  }, {
-    label: 'The Godfather'
-  }, {
-    label: 'The Godfather: Part II'
-  }, {
-    label: 'The Dark Knight'
-  }, {
-    label: '12 Angry Men'
-  }, {
-    label: "Schindler's List"
-  }, {
-    label: 'Pulp Fiction'
-  }]; // Fetching
-
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_styles__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      theme: theme,
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        component: "main",
-        maxWidth: "xs",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          sx: {
-            marginTop: 8,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center'
-          },
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Avatar__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            sx: {
-              width: 100,
-              height: 100
-            },
-            children: "H"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
-            component: "h1",
-            variant: "h5",
-            children: "Profile"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Link__WEBPACK_IMPORTED_MODULE_9__["default"], {
-            href: "#",
-            underline: "none",
-            children: 'Change Profile'
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_6__["default"], {
-            component: "form",
-            noValidate: true,
-            onSubmit: handleSubmit,
-            sx: {
-              mt: 3
-            },
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-              container: true,
-              spacing: 2,
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                item: true,
-                xs: 12,
-                sm: 6,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  autoComplete: "given-name",
-                  name: "firstName",
-                  required: true,
-                  fullWidth: true,
-                  id: "firstName",
-                  label: "First Name",
-                  autoFocus: true
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                item: true,
-                xs: 12,
-                sm: 6,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  required: true,
-                  fullWidth: true,
-                  id: "lastName",
-                  label: "Last Name",
-                  name: "lastName",
-                  autoComplete: "family-name"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                item: true,
-                xs: 12,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  required: true,
-                  fullWidth: true,
-                  id: "email",
-                  label: "Email Address",
-                  name: "email",
-                  autoComplete: "email"
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                item: true,
-                xs: 12,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Autocomplete__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                  disablePortal: true,
-                  id: "combo-box-demo",
-                  options: top100Films,
-                  renderInput: function renderInput(params) {
-                    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__["default"], _objectSpread(_objectSpread({}, params), {}, {
-                      label: "Company"
-                    }));
-                  }
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                item: true,
-                xs: 12,
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  required: true,
-                  fullWidth: true,
-                  id: "companyId",
-                  label: "Company ID",
-                  name: "companyId"
-                })
-              })]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Button__WEBPACK_IMPORTED_MODULE_13__["default"], {
-              type: "submit",
-              fullWidth: true,
-              variant: "contained",
-              sx: {
-                mt: 3,
-                mb: 2
-              },
-              children: "Edit"
-            })]
-          })]
-        })]
-      })
-    })
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Profile);
-
-/***/ }),
-
-/***/ "./resources/js/components/UsersComponent.js":
-/*!***************************************************!*\
-  !*** ./resources/js/components/UsersComponent.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
-/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
 /* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
+/* harmony import */ var _mui_material_Avatar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material/Avatar */ "./node_modules/@mui/material/Avatar/Avatar.js");
+/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material/Button */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material/CssBaseline */ "./node_modules/@mui/material/CssBaseline/CssBaseline.js");
+/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/TextField */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/Grid */ "./node_modules/@mui/material/Grid/Grid.js");
+/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material/Box */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Typography */ "./node_modules/@mui/material/Typography/Typography.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/FormControl/FormControl.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/InputLabel/InputLabel.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
+/* harmony import */ var _mui_material_Modal__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material/Modal */ "./node_modules/@mui/material/Modal/Modal.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
@@ -33082,16 +35696,530 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function createData(name, company, companyId) {
-  return {
-    name: name,
-    company: company,
-    companyId: companyId
+
+
+
+
+
+
+
+
+function Profile() {
+  // const handleSubmit = (event) => {
+  //     event.preventDefault();
+  //     const data = new FormData(event.currentTarget);
+  //     console.log({
+  //         email: data.get('email'),
+  //         password: data.get('password'),
+  //     });
+  // };
+  // const top100Films = [
+  //     { label: 'The Shawshank Redemption' },
+  //     { label: 'The Godfather' },
+  //     { label: 'The Godfather: Part II' },
+  //     { label: 'The Dark Knight' },
+  //     { label: '12 Angry Men' },
+  //     { label: "Schindler's List" },
+  //     { label: 'Pulp Fiction' }
+  // ];
+  // openmodal
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      open = _useState2[0],
+      setOpen = _useState2[1];
+
+  var handleOpen = function handleOpen() {
+    return setOpen(true);
   };
-} // axios.get('/getUsers')
+
+  var handleClose = function handleClose() {
+    return setOpen(false);
+  };
+
+  var style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4
+  };
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      userId = _useState4[0],
+      setUserId = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      firstName = _useState6[0],
+      setfirstName = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState8 = _slicedToArray(_useState7, 2),
+      lastName = _useState8[0],
+      setlastName = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState10 = _slicedToArray(_useState9, 2),
+      email = _useState10[0],
+      setEmail = _useState10[1];
+
+  var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState12 = _slicedToArray(_useState11, 2),
+      company = _useState12[0],
+      setCompany = _useState12[1];
+
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState14 = _slicedToArray(_useState13, 2),
+      companyId = _useState14[0],
+      setCompanyId = _useState14[1];
+
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState16 = _slicedToArray(_useState15, 2),
+      role = _useState16[0],
+      setRole = _useState16[1]; //retrieving user details
+
+
+  var getLoggedInUser = function getLoggedInUser() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getLoggedInUser').then(function (response) {
+      console.log(response.data.user);
+      var userData = response.data.user;
+      setUserId(userData.id);
+      setfirstName(userData.firstName);
+      setlastName(userData.lastName);
+      setEmail(userData.email);
+      setCompany(userData.company);
+      setCompanyId(userData.companyId);
+      setRole(userData.role);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getLoggedInUser();
+  }, []); //retrieving company
+
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState18 = _slicedToArray(_useState17, 2),
+      companyOptions = _useState18[0],
+      setCompanyOptions = _useState18[1];
+
+  var getCompany = function getCompany() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getCompany').then(function (response) {
+      // console.log(response.data.company);
+      var allCompanies = response.data.company;
+      setCompanyOptions(allCompanies);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getCompany();
+  }, []); //updating details
+
+  var handleSubmit = function handleSubmit(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/profile/".concat(user.get('id'));
+    var userDetails = {
+      id: user.get('id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId')
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put(url, userDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen(false);
+    });
+    console.log({
+      id: user.get('id'),
+      email: user.get('email'),
+      firstName: user.get('firstName'),
+      companyId: company
+    });
+  };
+
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    component: "main",
+    maxWidth: "xs",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        marginTop: 8,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
+      },
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Avatar__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        sx: {
+          width: 100,
+          height: 100
+        },
+        src: "#"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        component: "h1",
+        variant: "h5",
+        children: "Profile"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        sx: {
+          mt: 3
+        },
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              autoComplete: "email",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "company",
+              id: "company",
+              label: "Company",
+              value: company,
+              onChange: function onChange(e) {
+                return setCompany(e.target.value);
+              },
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              },
+              inputProps: {
+                readOnly: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Button__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          onClick: handleOpen,
+          children: "Edit"
+        })]
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Modal__WEBPACK_IMPORTED_MODULE_11__["default"], {
+      open: open,
+      onClose: handleClose,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          children: "Text in a modal"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              type: "email",
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+              fullWidth: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+                children: "Company"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+                value: company,
+                onChange: function onChange(e) {
+                  return setCompany(e.target.value);
+                },
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+                  id: "company",
+                  name: "company",
+                  value: company,
+                  children: company
+                }), companyOptions === null || companyOptions === void 0 ? void 0 : companyOptions.map(function (_ref) {
+                  var id = _ref.id,
+                      company = _ref.company;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+                    id: "company",
+                    value: company,
+                    children: company
+                  }, id);
+                })]
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material_Button__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
+        })]
+      })
+    })]
+  }); // return (
+  //     <div>
+  //         <Paper>
+  //             <List key={data.id}>
+  //                 <ListItem>
+  //                     <ListItemAvatar>
+  //                         <Avatar src={data.profImg} />
+  //                     </ListItemAvatar>
+  //                     <ListItemText primary={data.firstName} secondary={data.lastName} />
+  //                 </ListItem>
+  //             </List>
+  //         </Paper>
+  //     </div>
+  // )
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Profile);
+
+/***/ }),
+
+/***/ "./resources/js/components/UsersComponent.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/UsersComponent.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Typography/Typography.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Button/Button.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableContainer/TableContainer.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Paper/Paper.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Table/Table.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableHead/TableHead.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableRow/TableRow.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableCell/TableCell.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TableBody/TableBody.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Modal/Modal.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Grid/Grid.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/TextField/TextField.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/FormControl/FormControl.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/InputLabel/InputLabel.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Select/Select.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
+/* harmony import */ var _mui_material__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @mui/material */ "./node_modules/@mui/material/Autocomplete/Autocomplete.js");
+/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Container */ "./node_modules/@mui/material/Container/Container.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+ // axios.get('/getUsers')
 //   .then(function (response) {
 //     console.log(response.data);
 //   })
+
+
 
 
 function Users() {
@@ -33103,22 +36231,210 @@ function Users() {
   //     createData('John Doe', 'Company1', 1231231222),
   //     createData('Jane Doe', 'Company2', 2312312132),
   // ];
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
       _useState2 = _slicedToArray(_useState, 2),
-      user = _useState2[0],
-      setUser = _useState2[1];
+      open = _useState2[0],
+      setOpen = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      open2 = _useState4[0],
+      setOpen2 = _useState4[1];
+
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      userId = _useState6[0],
+      setUserId = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState8 = _slicedToArray(_useState7, 2),
+      userDets = _useState8[0],
+      setUserDets = _useState8[1];
+
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState10 = _slicedToArray(_useState9, 2),
+      firstName = _useState10[0],
+      setfirstName = _useState10[1];
+
+  var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState12 = _slicedToArray(_useState11, 2),
+      lastName = _useState12[0],
+      setlastName = _useState12[1];
+
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState14 = _slicedToArray(_useState13, 2),
+      email = _useState14[0],
+      setEmail = _useState14[1];
+
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState16 = _slicedToArray(_useState15, 2),
+      company = _useState16[0],
+      setCompany = _useState16[1];
+
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState18 = _slicedToArray(_useState17, 2),
+      companyId = _useState18[0],
+      setCompanyId = _useState18[1];
+
+  var _useState19 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState20 = _slicedToArray(_useState19, 2),
+      roleUser = _useState20[0],
+      setRole = _useState20[1];
+
+  var _useState21 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+      _useState22 = _slicedToArray(_useState21, 2),
+      companySelected = _useState22[0],
+      setCompanySelected = _useState22[1]; //handling modal open and getting details for modal edit
+
+
+  var handleEdit = function handleEdit(event) {
+    setOpen(true);
+    var userID = event.currentTarget.id;
+    console.log(event.currentTarget.id);
+    var url = "http://localhost:8000/users/".concat(userID, "/edit");
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get(url).then(function (response) {
+      var userInfo = response.data[0]; // console.log(userInfo.role);
+
+      setUserId(userInfo.id);
+      setfirstName(userInfo.firstName);
+      setlastName(userInfo.lastName);
+      setEmail(userInfo.email);
+      setCompany(userInfo.company);
+      setCompanyId(userInfo.companyId);
+      setRole(userInfo.role);
+    });
+  };
+
+  var handleClose = function handleClose() {
+    return setOpen(false);
+  };
+
+  var handleClose2 = function handleClose2() {
+    return setOpen2(false);
+  };
+
+  var style = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4
+  };
+  var userRole = ['Owner', 'Administrator', 'Payroll Officer', 'Employee' // { label: 'Owner', value: 'owner'},
+  // { label: 'Adminstrator',  value: 'owner'},
+  // { label: 'Payroll Officer',  value: 'owner' },
+  // { label: 'Employee',  value: 'owner'},
+  ];
+
+  var _useState23 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+      _useState24 = _slicedToArray(_useState23, 2),
+      show = _useState24[0],
+      setShow = _useState24[1]; //hiding elements in the UI
+  //retrieving users
+
+
+  var _useState25 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState26 = _slicedToArray(_useState25, 2),
+      user = _useState26[0],
+      setUser = _useState26[1];
 
   var getUsers = function getUsers() {
     axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getUsers').then(function (response) {
       console.log(response);
       var allUsers = response.data.users;
       setUser(allUsers);
+
+      if (allUsers.role === "Administrator") {
+        //hiding elements in the UI
+        setShow(!show);
+      }
     });
   };
 
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
     return getUsers();
-  }, []);
+  }, []); //retrieving company
+
+  var _useState27 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState28 = _slicedToArray(_useState27, 2),
+      companyOptions = _useState28[0],
+      setCompanyOptions = _useState28[1];
+
+  var getCompany = function getCompany() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/getCompany').then(function (response) {
+      // console.log(response.data.company);
+      var allCompanies = response.data.company;
+      setCompanyOptions(allCompanies);
+    });
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    return getCompany();
+  }, []); //create user
+
+  var handleCreate = function handleCreate() {
+    setOpen2(true);
+  };
+
+  var handleSubmit2 = function handleSubmit2(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/users";
+    var userDetails = {
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().post(url, userDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen2(false);
+    });
+    console.log({
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    });
+  }; //update details
+
+
+  var handleSubmit = function handleSubmit(event) {
+    event.preventDefault();
+    var user = new FormData(event.currentTarget);
+    var url = "http://localhost:8000/users/".concat(user.get('id'));
+    var userDetails = {
+      id: user.get('id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put(url, userDetails).then(function (response) {
+      console.log('Success', response);
+      setOpen(false);
+    });
+    console.log({
+      id: user.get('id'),
+      firstName: user.get('firstName'),
+      lastName: user.get('lastName'),
+      email: user.get('email'),
+      company: company,
+      companyId: user.get('companyId'),
+      role: roleUser
+    });
+  };
+
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
     maxWidth: "lg",
     sx: {
@@ -33133,46 +36449,424 @@ function Users() {
         flexGrow: 1
       },
       children: "Users"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      component: _mui_material__WEBPACK_IMPORTED_MODULE_6__["default"],
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }), show ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      sx: {
+        mb: 1
+      },
+      variant: "contained",
+      onClick: handleCreate,
+      children: "Create User"
+    }) : null, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      component: _mui_material__WEBPACK_IMPORTED_MODULE_7__["default"],
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
         sx: {
           minWidth: 650
         },
         "aria-label": "simple table",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_8__["default"], {
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
               children: "Employee"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Email"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
               align: "right",
               children: "Company"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
               align: "right",
               children: "company Id"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "right",
+              children: "Role"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+              align: "center",
+              children: "Actions"
             })]
           })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
-          children: user.map(function (data) {
-            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          children: user === null || user === void 0 ? void 0 : user.map(function (data) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
               sx: {
                 '&:last-child td, &:last-child th': {
                   border: 0
                 }
               },
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 component: "th",
                 scope: "row",
                 children: [data.firstName, " ", data.lastName]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.email
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 align: "right",
                 children: data.company
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_10__["default"], {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
                 align: "right",
                 children: data.companyId
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "right",
+                children: data.role
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                align: "center",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+                  variant: "contained",
+                  onClick: handleEdit,
+                  id: data.id,
+                  children: " Edit"
+                })
               })]
-            }, data.name);
+            }, data.id);
           })
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open,
+      onClose: handleClose,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Update User"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              type: "email",
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              fullWidth: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_18__["default"], {
+                children: "Company"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_19__["default"], {
+                value: company,
+                onChange: function onChange(e) {
+                  return setCompany(e.target.value);
+                },
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                  id: "company",
+                  name: "company",
+                  value: company,
+                  children: company
+                }), companyOptions === null || companyOptions === void 0 ? void 0 : companyOptions.map(function (_ref) {
+                  var id = _ref.id,
+                      company = _ref.company;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                    id: "company",
+                    value: company,
+                    children: company
+                  }, id);
+                })]
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_21__["default"], {
+              disablePortal: true,
+              name: "role",
+              id: "role",
+              options: userRole,
+              onChange: function onChange(event, value) {
+                return setRole(value);
+              },
+              renderInput: function renderInput(params) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], _objectSpread(_objectSpread({}, params), {}, {
+                  label: "Role"
+                }));
+              },
+              value: roleUser
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Save Changes"
+        })]
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      open: open2,
+      onClose: handleClose2,
+      "aria-labelledby": "modal-modal-title",
+      "aria-describedby": "modal-modal-description",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        component: "form",
+        noValidate: true,
+        autoComplete: "off",
+        onSubmit: handleSubmit2,
+        sx: style,
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          id: "modal-modal-title",
+          variant: "h6",
+          component: "h2",
+          sx: {
+            mb: 1
+          },
+          children: "Create User"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          item: true,
+          xs: 12,
+          sm: 6,
+          sx: {
+            display: {
+              xs: 'none',
+              md: 'none'
+            }
+          },
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            name: "id",
+            id: "id",
+            label: "id",
+            autoFocus: true,
+            value: userId,
+            required: true,
+            fullWidth: true,
+            InputLabelProps: {
+              shrink: true
+            }
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+          container: true,
+          spacing: 2,
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "firstName",
+              id: "firstName",
+              label: "First Name",
+              value: firstName,
+              onChange: function onChange(e) {
+                return setfirstName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            sm: 6,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "lastName",
+              id: "lastName",
+              label: "Last Name",
+              value: lastName,
+              onChange: function onChange(e) {
+                return setlastName(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              type: "email",
+              name: "email",
+              id: "email",
+              label: "Email Address",
+              value: email,
+              onChange: function onChange(e) {
+                return setEmail(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_17__["default"], {
+              fullWidth: true,
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_18__["default"], {
+                children: "Company"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_19__["default"], {
+                value: company,
+                onChange: function onChange(e) {
+                  return setCompany(e.target.value);
+                },
+                children: companyOptions === null || companyOptions === void 0 ? void 0 : companyOptions.map(function (_ref2) {
+                  var id = _ref2.id,
+                      company = _ref2.company;
+                  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_20__["default"], {
+                    id: "company",
+                    value: company,
+                    children: company
+                  }, id);
+                })
+              })]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], {
+              name: "companyId",
+              id: "companyId",
+              label: "Company ID",
+              value: companyId,
+              onChange: function onChange(e) {
+                return setCompanyId(e.target.value);
+              },
+              autoFocus: true,
+              required: true,
+              fullWidth: true,
+              InputLabelProps: {
+                shrink: true
+              }
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            item: true,
+            xs: 12,
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_21__["default"], {
+              disablePortal: true,
+              name: "role",
+              id: "role",
+              options: userRole,
+              onChange: function onChange(event, value) {
+                return setRole(value);
+              },
+              renderInput: function renderInput(params) {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_16__["default"], _objectSpread(_objectSpread({}, params), {}, {
+                  label: "Role"
+                }));
+              }
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          type: "submit",
+          fullWidth: true,
+          variant: "contained",
+          sx: {
+            mt: 3,
+            mb: 2
+          },
+          children: "Create"
         })]
       })
     })]
