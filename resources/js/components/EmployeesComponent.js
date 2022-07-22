@@ -11,7 +11,7 @@ function Employees() {
     const [open, setOpen] = useState(false);
     const [open2, setOpen2] = useState(false);
 
-    
+
 
     const [userId, setUserId] = useState('');
     const [firstName, setfirstName] = useState('');
@@ -35,6 +35,26 @@ function Employees() {
 
     const userRole = ['Owner', 'Administrator', 'Payroll Officer', 'Employee']
 
+    //get logged in user
+    const getLoggedInUser = () => {
+        axios.get('/getLoggedInUser')
+            .then((response) => {
+                // console.log(response.data.user);
+                const userData = response.data.user;
+                setUserId(userData.id);
+                setfirstName(userData.firstName);
+                setlastName(userData.lastName);
+                setEmail(userData.email);
+                setCompany(userData.company);
+                setCompanyId(userData.companyId);
+
+                if (userData.role === "Employee") { //hiding elements in the UI
+                    setShow(!show);
+                }
+            });
+    };
+    useEffect(() => getLoggedInUser(), []);
+
     //retrieving company
     const [companyOptions, setCompanyOptions] = useState([]);
     const getCompany = () => {
@@ -46,6 +66,7 @@ function Employees() {
             });
     };
     useEffect(() => getCompany(), []);
+
     //retrieving users
     const [employee, setEmployee] = useState([]);
     const getEmployees = () => {
